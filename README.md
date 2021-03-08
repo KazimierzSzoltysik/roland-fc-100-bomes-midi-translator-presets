@@ -11,5 +11,3 @@ Today, after years I found those files and decided to share them with the world 
 https://www.bome.com/products/miditranslator
 
 I give no guarantee that it will work. You run it at your own risk XD
-
-Translated with www.DeepL.com/Translator (free version)
