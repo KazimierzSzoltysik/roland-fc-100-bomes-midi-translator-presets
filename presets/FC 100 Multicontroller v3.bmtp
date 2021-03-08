@@ -1,0 +1,157 @@
+[Project]
+Version=1
+[Preset.0]
+Name=FC 100 multicontrol (Ableton Live + KORG Electribe S)
+Active=1
+Name0=ga = active track; gb = note;
+Incoming0=MID1
+Outgoing0=None
+Options0=Actv00Stop01OutO00
+Name1=gc = bank change error
+Incoming1=MID1
+Outgoing1=None
+Options1=Actv00Stop01OutO00
+Name2=[ any ]               ( blokada )
+Incoming2=MID1C0oo
+Outgoing2=None
+Options2=Actv00Stop00OutO00StMa00000026gc=1gd=gege=oogf=gd+8if(ge==gf)goto00010gf=gd+16if(ge==gf)goto00010gf=gd+24if(ge==gf)goto00010gf=gd+32if(ge==gf)goto00010gf=gd+40if(ge==gf)goto00010gf=gd+48if(ge==gf)goto00010gf=gd+56if(ge==gf)goto00010gf=gd+64if(ge==gf)goto00010gf=gd-8if(ge==gf)goto00010gf=gd-16if(ge==gf)goto00010gf=gd-24if(ge==gf)goto00010gf=gd-32if(ge==gf)goto00010gf=gd-40if(ge==gf)goto00010gf=gd-48if(ge==gf)goto00010gf=gd-56if(ge==gf)goto00010gf=gd-64if(ge==gf)goto00010executelabel00010gc=0
+Name3=[ any ]               ( blokada )
+Incoming3=MID1C0oo
+Outgoing3=None
+Options3=Actv01Stop00OutO00StMa00000053gc=1gd=gege=oogf=gd+8if(ge==gf)goto00010gf=gd+16if(ge==gf)goto00010gf=gd+24if(ge==gf)goto00010gf=gd+32if(ge==gf)goto00010gf=gd+40if(ge==gf)goto00010gf=gd+48if(ge==gf)goto00010gf=gd+56if(ge==gf)goto00010gf=gd+64if(ge==gf)goto00010gf=gd-8if(ge==gf)goto00010gf=gd-16if(ge==gf)goto00010gf=gd-24if(ge==gf)goto00010gf=gd-32if(ge==gf)goto00010gf=gd-40if(ge==gf)goto00010gf=gd-48if(ge==gf)goto00010gf=gd-56if(ge==gf)goto00010gf=gd-64if(ge==gf)goto00010gf=gd+72if(ge==gf)goto00010gf=gd+80if(ge==gf)goto00010label00010gf=gd+88if(ge==gf)goto00010label00010gf=gd+96if(ge==gf)goto00010label00010gf=gd+104if(ge==gf)goto00010label00010gf=gd+112if(ge==gf)goto00010label00010gf=gd+120if(ge==gf)goto00010label00010gf=gd+128if(ge==gf)goto00010label00010gf=gd-72if(ge==gf)goto00010label00010gf=gd-80if(ge==gf)goto00010label00010gf=gd-88if(ge==gf)goto00010label00010gf=gd-96if(ge==gf)goto00010label00010gf=gd-104if(ge==gf)goto00010label00010gf=gd-112if(ge==gf)goto00010label00010gf=gd-120if(ge==gf)goto00010label00010gf=gd-128if(ge==gf)goto00010label00010execute
+Name4=********* GLOBAL ************
+Incoming4=MID1C000
+Outgoing4=None
+Options4=Actv00Stop01OutO00
+Name5=[ C ] tapped
+Incoming5=MID1B0517F
+Outgoing5=MID190ga7f
+Options5=Actv01Stop01OutO00
+Name6=[ C ] released
+Incoming6=MID1B05100
+Outgoing6=MID180ga7f
+Options6=Actv01Stop01OutO00
+Name7=********* BANK 1 ************
+Incoming7=MID1C000
+Outgoing7=None
+Options7=Actv00Stop01OutO00
+Name8=[ 1 ] SELECT 1
+Incoming8=MID1C000
+Outgoing8=KAM10100KSQ10002051251
+Options8=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=1
+Name9=[ 2 ] SELECT 2
+Incoming9=MID1C001
+Outgoing9=KAM10100KSQ10002057257
+Options9=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=2
+Name10=[ 3 ] SELECT 3
+Incoming10=MID1C002
+Outgoing10=KAM10100KSQ10002045245
+Options10=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=3
+Name11=[ 4 ] SELECT 4
+Incoming11=MID1C003
+Outgoing11=KAM10100KSQ10002052252
+Options11=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=4
+Name12=[ 5 ]  CTRL 1  ( CLEAR )
+Incoming12=MID1C004
+Outgoing12=MID190gb7f
+Options12=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=ga+4
+Name13=[ 5 ]
+Incoming13=MID1C004
+Outgoing13=MID180gb7f
+Options13=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=ga+4
+Name14=[ 6 ]  CTRL 2  ( /2 )
+Incoming14=MID1C005
+Outgoing14=MID190gb7f
+Options14=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=ga+8
+Name15=[ 6 ]
+Incoming15=MID1C005
+Outgoing15=MID180gb7f
+Options15=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=ga+8
+Name16=[ 7 ]  CTRL 3  ( *2 )
+Incoming16=MID1C006
+Outgoing16=MID190gb7f
+Options16=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=ga+12
+Name17=[ 7 ]
+Incoming17=MID1C006
+Outgoing17=MID180gb7f
+Options17=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=ga+12
+Name18=[ 8 ]  CTRL 3  ( REVERSE )
+Incoming18=MID1C007
+Outgoing18=MID190gb7f
+Options18=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=ga+12
+Name19=[ 8 ]
+Incoming19=MID1C007
+Outgoing19=MID180gb7f
+Options19=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=ga+12
+Name20=********* BANK 2 ************
+Incoming20=MID1C000
+Outgoing20=None
+Options20=Actv00Stop01OutO00
+Name21=[ 1 ] SELECT 1
+Incoming21=MID1C008
+Outgoing21=KAM10100KSQ10002051251
+Options21=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=1
+Name22=[ 2 ] SELECT 2
+Incoming22=MID1C009
+Outgoing22=KAM10100KSQ10002057257
+Options22=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=2
+Name23=[ 3 ] SELECT 3
+Incoming23=MID1C00A
+Outgoing23=KAM10100KSQ10002045245
+Options23=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=3
+Name24=[ 4 ] SELECT 4
+Incoming24=MID1C00B
+Outgoing24=KAM10100KSQ10002052252
+Options24=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=4
+Name25=[ 5 ]  MUTE 1
+Incoming25=MID1C00C
+Outgoing25=MID190gb7f
+Options25=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name26=[ 5 ]
+Incoming26=MID1C00C
+Outgoing26=MID180gb7f
+Options26=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name27=[ 6 ]  MUTE 2
+Incoming27=MID1C00D
+Outgoing27=MID190gb7f
+Options27=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name28=[ 6 ]
+Incoming28=MID1C00D
+Outgoing28=MID180gb7f
+Options28=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name29=[ 7 ]  MUTE 3
+Incoming29=MID1C00E
+Outgoing29=MID190gb7f
+Options29=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name30=[ 7 ]
+Incoming30=MID1C00E
+Outgoing30=MID180gb7f
+Options30=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name31=[ 8 ]  MUTE 4
+Incoming31=MID1C00F
+Outgoing31=MID190gb7f
+Options31=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name32=[ 8 ]
+Incoming32=MID1C00F
+Outgoing32=MID180gb7f
+Options32=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name33=********* BANK 3 ************
+Incoming33=MID1C000
+Outgoing33=None
+Options33=Actv00Stop01OutO00
+Name34=********* BANK 4 ************
+Incoming34=MID1C000
+Outgoing34=None
+Options34=Actv00Stop01OutO00
+Name35=********* BANK 5 ************
+Incoming35=MID1C000
+Outgoing35=None
+Options35=Actv00Stop01OutO00
+Name36=[ 1 ] SAMPLE 1
+Incoming36=MID1C020
+Outgoing36=MID19054ff
+Options36=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name37=[ 1 ] SAMPLE 1
+Incoming37=MID1C020
+Outgoing37=MID18054ff
+Options37=Actv01Stop01OutO00StMa00000001if(gc==0)noexecute

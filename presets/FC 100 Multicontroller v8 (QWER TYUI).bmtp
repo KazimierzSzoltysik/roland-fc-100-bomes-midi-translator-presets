@@ -1,0 +1,3136 @@
+[Project]
+Version=1
+[Preset.0]
+Name=FC 100 multicontrol (Ableton Live + KORG Electribe S)
+Active=0
+Name0=gc = bank change error
+Incoming0=MID1
+Outgoing0=None
+Options0=Actv00Stop01OutO00
+Name1=ga = loop number
+Incoming1=MID1
+Outgoing1=None
+Options1=Actv00Stop01OutO00
+Name2=gy = interval
+Incoming2=MID1
+Outgoing2=None
+Options2=Actv01Stop00OutO00StMa00000001gy=50
+Name3=[ any ]               ( blokada )
+Incoming3=MID1C0oo
+Outgoing3=None
+Options3=Actv00Stop00OutO00StMa00000026gc=1gd=gege=oogf=gd+8if(ge==gf)goto00010gf=gd+16if(ge==gf)goto00010gf=gd+24if(ge==gf)goto00010gf=gd+32if(ge==gf)goto00010gf=gd+40if(ge==gf)goto00010gf=gd+48if(ge==gf)goto00010gf=gd+56if(ge==gf)goto00010gf=gd+64if(ge==gf)goto00010gf=gd-8if(ge==gf)goto00010gf=gd-16if(ge==gf)goto00010gf=gd-24if(ge==gf)goto00010gf=gd-32if(ge==gf)goto00010gf=gd-40if(ge==gf)goto00010gf=gd-48if(ge==gf)goto00010gf=gd-56if(ge==gf)goto00010gf=gd-64if(ge==gf)goto00010executelabel00010gc=0
+Name4=[ any ]               ( blokada )
+Incoming4=MID1C0oo
+Outgoing4=None
+Options4=Actv01Stop00OutO00StMa00000057gc=1gd=gege=oogf=gd+8if(ge==gf)goto00010gf=gd+16if(ge==gf)goto00010gf=gd+24if(ge==gf)goto00010gf=gd+32if(ge==gf)goto00010gf=gd+40if(ge==gf)goto00010gf=gd+48if(ge==gf)goto00010gf=gd+56if(ge==gf)goto00010gf=gd+64if(ge==gf)goto00010gf=gd-8if(ge==gf)goto00010gf=gd-16if(ge==gf)goto00010gf=gd-24if(ge==gf)goto00010gf=gd-32if(ge==gf)goto00010gf=gd-40if(ge==gf)goto00010gf=gd-48if(ge==gf)goto00010gf=gd-56if(ge==gf)goto00010gf=gd-64if(ge==gf)goto00010gf=gd+72if(ge==gf)goto00010gf=gd+80if(ge==gf)goto00010label00010gf=gd+88if(ge==gf)goto00010label00010gf=gd+96if(ge==gf)goto00010label00010gf=gd+104if(ge==gf)goto00010label00010gf=gd+112if(ge==gf)goto00010label00010gf=gd+120if(ge==gf)goto00010label00010gf=gd+128if(ge==gf)goto00010label00010gf=gd-72if(ge==gf)goto00010label00010gf=gd-80if(ge==gf)goto00010label00010gf=gd-88if(ge==gf)goto00010label00010gf=gd-96if(ge==gf)goto00010label00010gf=gd-104if(ge==gf)goto00010label00010gf=gd-112if(ge==gf)goto00010label00010gf=gd-120if(ge==gf)goto00010label00010gf=gd-128if(ge==gf)goto00010goto00011label00010gc=0executelabel00011gc=1
+Name5=********* GLOBAL ************
+Incoming5=MID1C000
+Outgoing5=None
+Options5=Actv00Stop01OutO00
+Name6=[ C ] tapped
+Incoming6=MID1B0517F
+Outgoing6=MID190ga7f
+Options6=Actv01Stop01OutO00
+Name7=[ C ] released
+Incoming7=MID1B05100
+Outgoing7=MID180ga7f
+Options7=Actv01Stop01OutO00
+Name8=********* BANK 1 <A> ************
+Incoming8=MID1C000
+Outgoing8=None
+Options8=Actv00Stop00OutO00
+Name9=[ 1 ] SELECT 1
+Incoming9=MID1C000
+Outgoing9=KAM10100KSQ10002051251
+Options9=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=1
+Name10=[ 2 ] SELECT 2
+Incoming10=MID1C001
+Outgoing10=KAM10100KSQ10002057257
+Options10=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=2
+Name11=[ 3 ] SELECT 3
+Incoming11=MID1C002
+Outgoing11=KAM10100KSQ10002045245
+Options11=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=3
+Name12=[ 4 ] SELECT 4
+Incoming12=MID1C003
+Outgoing12=KAM10100KSQ10002052252
+Options12=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name13=[ 5 ]  MUTE 1
+Incoming13=MID1C004
+Outgoing13=MID190097f
+Options13=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=ga+4
+Name14=[ 5 ]
+Incoming14=MID1C004
+Outgoing14=MID180097f
+Options14=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=ga+4
+Name15=[ 6 ]  MUTE 2
+Incoming15=MID1C005
+Outgoing15=MID190107f
+Options15=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=ga+8
+Name16=[ 6 ]
+Incoming16=MID1C005
+Outgoing16=MID180107f
+Options16=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=ga+8
+Name17=[ 7 ]  MUTE 3
+Incoming17=MID1C006
+Outgoing17=MID190117f
+Options17=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=ga+12
+Name18=[ 7 ]
+Incoming18=MID1C006
+Outgoing18=MID180117f
+Options18=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=ga+12
+Name19=[ 8 ]  MUTE 4
+Incoming19=MID1C007
+Outgoing19=MID190127f
+Options19=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=ga+16
+Name20=[ 8 ]
+Incoming20=MID1C007
+Outgoing20=MID180127f
+Options20=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=ga+16
+Name21=********* BANK 1 <B> ************
+Incoming21=MID1C000
+Outgoing21=None
+Options21=Actv00Stop01OutO00
+Name22=[ 1 ] SELECT 1
+Incoming22=MID1C040
+Outgoing22=KAM10100KSQ10002051251
+Options22=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=1
+Name23=[ 2 ] SELECT 2
+Incoming23=MID1C041
+Outgoing23=KAM10100KSQ10002057257
+Options23=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=2
+Name24=[ 3 ] SELECT 3
+Incoming24=MID1C042
+Outgoing24=KAM10100KSQ10002045245
+Options24=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=3
+Name25=[ 4 ] SELECT 4
+Incoming25=MID1C043
+Outgoing25=KAM10100KSQ10002052252
+Options25=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=4
+Name26=[ 5 ]  CLEAR 1
+Incoming26=MID1C044
+Outgoing26=MID190137f
+Options26=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name27=[ 5 ]
+Incoming27=MID1C044
+Outgoing27=MID180137f
+Options27=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name28=[ 6 ]  CLEAR 2
+Incoming28=MID1C045
+Outgoing28=MID190147f
+Options28=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name29=[ 6 ]
+Incoming29=MID1C045
+Outgoing29=MID180147f
+Options29=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name30=[ 7 ]  CLEAR 3
+Incoming30=MID1C046
+Outgoing30=MID190157f
+Options30=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name31=[ 7 ]
+Incoming31=MID1C046
+Outgoing31=MID180157f
+Options31=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name32=[ 8 ]  CLEAR 4
+Incoming32=MID1C047
+Outgoing32=MID190167f
+Options32=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name33=[ 8 ]
+Incoming33=MID1C047
+Outgoing33=MID180167f
+Options33=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name34=********* BANK 2  <A>************
+Incoming34=MID1C000
+Outgoing34=None
+Options34=Actv00Stop01OutO00
+Name35=[ 1 ] SELECT 1
+Incoming35=MID1C008
+Outgoing35=KAM10100KSQ10002054254
+Options35=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=5
+Name36=[ 2 ] SELECT 2
+Incoming36=MID1C009
+Outgoing36=KAM10100KSQ10002059259
+Options36=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=6
+Name37=[ 3 ] SELECT 3
+Incoming37=MID1C00A
+Outgoing37=KAM10100KSQ10002055255
+Options37=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=7
+Name38=[ 4 ] SELECT 4
+Incoming38=MID1C00B
+Outgoing38=KAM10100KSQ10002049249
+Options38=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=8
+Name39=[ 5 ]  MUTE 1
+Incoming39=MID1C00C
+Outgoing39=MID190177f
+Options39=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name40=[ 5 ]
+Incoming40=MID1C00C
+Outgoing40=MID180177f
+Options40=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name41=[ 6 ]  MUTE 2
+Incoming41=MID1C00D
+Outgoing41=MID190187f
+Options41=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name42=[ 6 ]
+Incoming42=MID1C00D
+Outgoing42=MID180187f
+Options42=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name43=[ 7 ]  MUTE 3
+Incoming43=MID1C00E
+Outgoing43=MID190197f
+Options43=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name44=[ 7 ]
+Incoming44=MID1C00E
+Outgoing44=MID180197f
+Options44=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name45=[ 8 ]  MUTE 4
+Incoming45=MID1C00F
+Outgoing45=MID190207f
+Options45=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name46=[ 8 ]
+Incoming46=MID1C00F
+Outgoing46=MID180207f
+Options46=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name47=********* BANK 2  <B>************
+Incoming47=MID1C000
+Outgoing47=None
+Options47=Actv00Stop01OutO00
+Name48=[ 1 ] SELECT 1
+Incoming48=MID1C048
+Outgoing48=KAM10100KSQ10002054254
+Options48=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=5
+Name49=[ 2 ] SELECT 2
+Incoming49=MID1C049
+Outgoing49=KAM10100KSQ10002059259
+Options49=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=6
+Name50=[ 3 ] SELECT 3
+Incoming50=MID1C04A
+Outgoing50=KAM10100KSQ10002055255
+Options50=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=7
+Name51=[ 4 ] SELECT 4
+Incoming51=MID1C04B
+Outgoing51=KAM10100KSQ10002049249
+Options51=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=8
+Name52=[ 5 ]  MUTE 1
+Incoming52=MID1C04C
+Outgoing52=MID190217f
+Options52=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name53=[ 5 ]
+Incoming53=MID1C04C
+Outgoing53=MID180217f
+Options53=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name54=[ 6 ]  MUTE 2
+Incoming54=MID1C04D
+Outgoing54=MID190227f
+Options54=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name55=[ 6 ]
+Incoming55=MID1C04D
+Outgoing55=MID180227f
+Options55=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name56=[ 7 ]  MUTE 3
+Incoming56=MID1C04E
+Outgoing56=MID190237f
+Options56=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name57=[ 7 ]
+Incoming57=MID1C04E
+Outgoing57=MID180237f
+Options57=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name58=[ 8 ]  MUTE 4
+Incoming58=MID1C04F
+Outgoing58=MID190247f
+Options58=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name59=[ 8 ]
+Incoming59=MID1C04F
+Outgoing59=MID180247f
+Options59=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name60=********* BANK 3  <A>************
+Incoming60=MID1C000
+Outgoing60=None
+Options60=Actv00Stop01OutO00
+Name61=[ 1 ] SEND 1
+Incoming61=MID1C010
+Outgoing61=MID190257f
+Options61=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name62=...
+Incoming62=MID1C010
+Outgoing62=MID180257f
+Options62=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name63=[ 2 ] SEND 2
+Incoming63=MID1C011
+Outgoing63=MID190267f
+Options63=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name64=...
+Incoming64=MID1C013
+Outgoing64=MID180287f
+Options64=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name65=[ 3 ] SEND 3
+Incoming65=MID1C012
+Outgoing65=MID190277f
+Options65=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name66=...
+Incoming66=MID1C012
+Outgoing66=MID180277f
+Options66=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name67=[ 4 ] SEND 4
+Incoming67=MID1C013
+Outgoing67=MID190287f
+Options67=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name68=...
+Incoming68=MID1C013
+Outgoing68=MID180287f
+Options68=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name69=********* BANK 3  <B>************
+Incoming69=MID1C000
+Outgoing69=None
+Options69=Actv00Stop01OutO00
+Name70=[ 1 ] SEND 1
+Incoming70=MID1C050
+Outgoing70=MID190257f
+Options70=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name71=...
+Incoming71=MID1C050
+Outgoing71=MID180257f
+Options71=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name72=... ga send 1
+Incoming72=MID1C050
+Outgoing72=MID190gx7f
+Options72=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name73=...
+Incoming73=MID1C050
+Outgoing73=MID180gx7f
+Options73=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name74=[ 2 ] SEND 2
+Incoming74=MID1C051
+Outgoing74=MID190267f
+Options74=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name75=...
+Incoming75=MID1C051
+Outgoing75=MID180267f
+Options75=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name76=... ga send 2
+Incoming76=MID1C051
+Outgoing76=MID190gx7f
+Options76=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name77=...
+Incoming77=MID1C051
+Outgoing77=MID180gx7f
+Options77=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name78=[ 3 ] SEND 3
+Incoming78=MID1C052
+Outgoing78=MID190277f
+Options78=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name79=...
+Incoming79=MID1C052
+Outgoing79=MID180277f
+Options79=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name80=... ga send 2
+Incoming80=MID1C052
+Outgoing80=MID190gx7f
+Options80=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name81=...
+Incoming81=MID1C052
+Outgoing81=MID180gx7f
+Options81=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name82=[ 4 ] SEND 4
+Incoming82=MID1C053
+Outgoing82=MID190287f
+Options82=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name83=...
+Incoming83=MID1C053
+Outgoing83=MID180287f
+Options83=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name84=... ga send 2
+Incoming84=MID1C053
+Outgoing84=MID190gx7f
+Options84=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name85=...
+Incoming85=MID1C053
+Outgoing85=MID180gx7f
+Options85=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name86=********* BANK 4  <A>************
+Incoming86=MID1C000
+Outgoing86=None
+Options86=Actv00Stop01OutO00
+Name87=[ 1 ] SELECT 1
+Incoming87=MID1C018
+Outgoing87=KAM10100KSQ10002051251
+Options87=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=1
+Name88=[ 2 ] SELECT 2
+Incoming88=MID1C019
+Outgoing88=KAM10100KSQ10002057257
+Options88=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=2
+Name89=[ 3 ] SELECT 3
+Incoming89=MID1C01A
+Outgoing89=KAM10100KSQ10002045245
+Options89=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=3
+Name90=[ 4 ] SELECT 4
+Incoming90=MID1C01B
+Outgoing90=KAM10100KSQ10002052252
+Options90=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name91=[ 5 ] SEND 1
+Incoming91=MID1C01C
+Outgoing91=MID190257f
+Options91=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name92=...
+Incoming92=MID1C01C
+Outgoing92=MID180257f
+Options92=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name93=... ga send 1
+Incoming93=MID1C01C
+Outgoing93=MID190gx7f
+Options93=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name94=...
+Incoming94=MID1C01C
+Outgoing94=MID180gx7f
+Options94=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name95=[ 6 ] SEND 2
+Incoming95=MID1C01D
+Outgoing95=MID190267f
+Options95=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name96=...
+Incoming96=MID1C01D
+Outgoing96=MID180267f
+Options96=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name97=... ga send 2
+Incoming97=MID1C01D
+Outgoing97=MID190gx7f
+Options97=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name98=...
+Incoming98=MID1C01D
+Outgoing98=MID180gx7f
+Options98=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name99=[ 7 ] SEND 3
+Incoming99=MID1C01E
+Outgoing99=MID190277f
+Options99=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name100=...
+Incoming100=MID1C01E
+Outgoing100=MID180277f
+Options100=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name101=... ga send 2
+Incoming101=MID1C01E
+Outgoing101=MID190gx7f
+Options101=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name102=...
+Incoming102=MID1C01E
+Outgoing102=MID180gx7f
+Options102=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name103=[ 8 ] SEND 4
+Incoming103=MID1C01F
+Outgoing103=MID190287f
+Options103=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name104=...
+Incoming104=MID1C01F
+Outgoing104=MID180287f
+Options104=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name105=... ga send 2
+Incoming105=MID1C01F
+Outgoing105=MID190gx7f
+Options105=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name106=...
+Incoming106=MID1C01F
+Outgoing106=MID180gx7f
+Options106=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name107=********* BANK 4  <B>************
+Incoming107=MID1C000
+Outgoing107=None
+Options107=Actv00Stop01OutO00
+Name108=[ 1 ] SELECT 1
+Incoming108=MID1C058
+Outgoing108=KAM10100KSQ10002054254
+Options108=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=5
+Name109=[ 2 ] SELECT 2
+Incoming109=MID1C059
+Outgoing109=KAM10100KSQ10002059259
+Options109=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=6
+Name110=[ 3 ] SELECT 3
+Incoming110=MID1C05A
+Outgoing110=KAM10100KSQ10002055255
+Options110=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=7
+Name111=[ 4 ] SELECT 4
+Incoming111=MID1C05B
+Outgoing111=KAM10100KSQ10002049249
+Options111=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=8
+Name112=[ 5 ] SEND 1
+Incoming112=MID1C05C
+Outgoing112=MID190257f
+Options112=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name113=...
+Incoming113=MID1C05C
+Outgoing113=MID180257f
+Options113=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name114=... ga send 1
+Incoming114=MID1C05C
+Outgoing114=MID190gx7f
+Options114=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name115=...
+Incoming115=MID1C05C
+Outgoing115=MID180gx7f
+Options115=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name116=[ 6 ] SEND 2
+Incoming116=MID1C05D
+Outgoing116=MID190267f
+Options116=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name117=...
+Incoming117=MID1C05D
+Outgoing117=MID180267f
+Options117=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name118=... ga send 2
+Incoming118=MID1C05D
+Outgoing118=MID190gx7f
+Options118=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name119=...
+Incoming119=MID1C05D
+Outgoing119=MID180gx7f
+Options119=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name120=[ 7 ] SEND 3
+Incoming120=MID1C05E
+Outgoing120=MID190277f
+Options120=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name121=...
+Incoming121=MID1C05E
+Outgoing121=MID180277f
+Options121=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name122=... ga send 2
+Incoming122=MID1C05E
+Outgoing122=MID190gx7f
+Options122=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name123=...
+Incoming123=MID1C05E
+Outgoing123=MID180gx7f
+Options123=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name124=[ 8 ] SEND 4
+Incoming124=MID1C05F
+Outgoing124=MID190287f
+Options124=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name125=...
+Incoming125=MID1C05F
+Outgoing125=MID180287f
+Options125=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name126=... ga send 2
+Incoming126=MID1C05F
+Outgoing126=MID190gx7f
+Options126=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name127=...
+Incoming127=MID1C05F
+Outgoing127=MID180gx7f
+Options127=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name128=********* BANK 5  <A>************
+Incoming128=MID1C000
+Outgoing128=None
+Options128=Actv00Stop01OutO00
+Name129=[ 1 ] SELECT 1
+Incoming129=MID1C020
+Outgoing129=KAM10100KSQ10002051251
+Options129=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=1
+Name130=[ 2 ] SELECT 2
+Incoming130=MID1C021
+Outgoing130=KAM10100KSQ10002057257
+Options130=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=2
+Name131=[ 3 ] SELECT 3
+Incoming131=MID1C022
+Outgoing131=KAM10100KSQ10002045245
+Options131=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=3
+Name132=[ 4 ] SELECT 4
+Incoming132=MID1C023
+Outgoing132=KAM10100KSQ10002052252
+Options132=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name133=[ 5 ] SEND 1
+Incoming133=MID1C024
+Outgoing133=MID190257f
+Options133=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name134=...
+Incoming134=MID1C024
+Outgoing134=MID180257f
+Options134=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name135=... ga send 1
+Incoming135=MID1C024
+Outgoing135=MID190gx7f
+Options135=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name136=...
+Incoming136=MID1C024
+Outgoing136=MID180gx7f
+Options136=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name137=[ 6 ] SEND 2
+Incoming137=MID1C025
+Outgoing137=MID190267f
+Options137=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name138=...
+Incoming138=MID1C025
+Outgoing138=MID180267f
+Options138=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name139=... ga send 2
+Incoming139=MID1C025
+Outgoing139=MID190gx7f
+Options139=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name140=...
+Incoming140=MID1C025
+Outgoing140=MID180gx7f
+Options140=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name141=[ 7 ] SEND 3
+Incoming141=MID1C026
+Outgoing141=MID190277f
+Options141=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name142=...
+Incoming142=MID1C026
+Outgoing142=MID180277f
+Options142=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name143=... ga send 2
+Incoming143=MID1C026
+Outgoing143=MID190gx7f
+Options143=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name144=...
+Incoming144=MID1C026
+Outgoing144=MID180gx7f
+Options144=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name145=[ 8 ] SEND 4
+Incoming145=MID1C027
+Outgoing145=MID190287f
+Options145=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name146=...
+Incoming146=MID1C027
+Outgoing146=MID180287f
+Options146=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name147=... ga send 2
+Incoming147=MID1C027
+Outgoing147=MID190gx7f
+Options147=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name148=...
+Incoming148=MID1C027
+Outgoing148=MID180gx7f
+Options148=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name149=********* BANK 5 <B> ************
+Incoming149=MID1C000
+Outgoing149=None
+Options149=Actv00Stop01OutO00
+Name150=[ 1 ] SELECT 1
+Incoming150=MID1C060
+Outgoing150=KAM10100KSQ10002051251
+Options150=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=1
+Name151=[ 2 ] SELECT 2
+Incoming151=MID1C061
+Outgoing151=KAM10100KSQ10002057257
+Options151=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=2
+Name152=[ 3 ] SELECT 3
+Incoming152=MID1C062
+Outgoing152=KAM10100KSQ10002045245
+Options152=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=3
+Name153=[ 4 ] SELECT 4
+Incoming153=MID1C063
+Outgoing153=KAM10100KSQ10002052252
+Options153=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=4
+Name154=[ 5 ]  CLEAR 1
+Incoming154=MID1C064
+Outgoing154=MID190137f
+Options154=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name155=[ 5 ]
+Incoming155=MID1C064
+Outgoing155=MID180137f
+Options155=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name156=[ 6 ]  CLEAR 2
+Incoming156=MID1C065
+Outgoing156=MID190147f
+Options156=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name157=[ 6 ]
+Incoming157=MID1C065
+Outgoing157=MID180147f
+Options157=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name158=[ 7 ]  CLEAR 3
+Incoming158=MID1C066
+Outgoing158=MID190157f
+Options158=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name159=[ 7 ]
+Incoming159=MID1C066
+Outgoing159=MID180157f
+Options159=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name160=[ 8 ]  CLEAR 4
+Incoming160=MID1C067
+Outgoing160=MID190167f
+Options160=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name161=[ 8 ]
+Incoming161=MID1C067
+Outgoing161=MID180167f
+Options161=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name162=... ga send 1
+Incoming162=MID1C064
+Outgoing162=MID190gx7f
+Options162=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name163=...
+Incoming163=MID1C064
+Outgoing163=MID180gx7f
+Options163=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name164=... ga send 2
+Incoming164=MID1C065
+Outgoing164=MID190gx7f
+Options164=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name165=...
+Incoming165=MID1C065
+Outgoing165=MID180gx7f
+Options165=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name166=... ga send 2
+Incoming166=MID1C066
+Outgoing166=MID190gx7f
+Options166=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name167=...
+Incoming167=MID1C066
+Outgoing167=MID180gx7f
+Options167=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name168=... ga send 2
+Incoming168=MID1C067
+Outgoing168=MID190gx7f
+Options168=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name169=...
+Incoming169=MID1C067
+Outgoing169=MID180gx7f
+Options169=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name170=********* BANK 6  <A>************
+Incoming170=MID1C000
+Outgoing170=None
+Options170=Actv00Stop01OutO00
+Name171=[ 1 ] SEND 1
+Incoming171=MID1C028
+Outgoing171=MID190257f
+Options171=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name172=...
+Incoming172=MID1C028
+Outgoing172=MID180257f
+Options172=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name173=[ 2 ] SEND 2
+Incoming173=MID1C029
+Outgoing173=MID190267f
+Options173=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name174=...
+Incoming174=MID1C029
+Outgoing174=MID180267f
+Options174=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name175=[ 3] SEND 3
+Incoming175=MID1C02A
+Outgoing175=MID190277f
+Options175=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name176=...
+Incoming176=MID1C02A
+Outgoing176=MID180277f
+Options176=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name177=[ 4 ] SEND 4
+Incoming177=MID1C02B
+Outgoing177=MID190287f
+Options177=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name178=...
+Incoming178=MID1C02B
+Outgoing178=MID180287f
+Options178=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name179=[ 5 ] SEND 1
+Incoming179=MID1C02C
+Outgoing179=MID190257f
+Options179=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name180=...
+Incoming180=MID1C02C
+Outgoing180=MID180257f
+Options180=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name181=[ 6 ] SEND 2
+Incoming181=MID1C02D
+Outgoing181=MID190267f
+Options181=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name182=...
+Incoming182=MID1C02D
+Outgoing182=MID180267f
+Options182=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name183=[ 7 ] SEND 3
+Incoming183=MID1C02E
+Outgoing183=MID190277f
+Options183=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name184=...
+Incoming184=MID1C02E
+Outgoing184=MID180277f
+Options184=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name185=[ 8 ] SEND 4
+Incoming185=MID1C02F
+Outgoing185=MID190287f
+Options185=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name186=...
+Incoming186=MID1C02F
+Outgoing186=MID180287f
+Options186=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name187=[ 5 ]  MUTE 1
+Incoming187=MID1C06C
+Outgoing187=MID190217f
+Options187=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name188=[ 5 ]
+Incoming188=MID1C06C
+Outgoing188=MID180217f
+Options188=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name189=[ 6 ]  MUTE 2
+Incoming189=MID1C06D
+Outgoing189=MID190227f
+Options189=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name190=[ 6 ]
+Incoming190=MID1C06D
+Outgoing190=MID180227f
+Options190=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name191=[ 7 ]  MUTE 3
+Incoming191=MID1C06E
+Outgoing191=MID190237f
+Options191=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name192=[ 7 ]
+Incoming192=MID1C06E
+Outgoing192=MID180237f
+Options192=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name193=[ 8 ]  MUTE 4
+Incoming193=MID1C06F
+Outgoing193=MID190247f
+Options193=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name194=[ 8 ]
+Incoming194=MID1C06F
+Outgoing194=MID180247f
+Options194=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0
+[Preset.1]
+Name=serato
+Active=0
+Name0=L go 1
+Incoming0=MID1C000
+Outgoing0=KAM10100KSQ10004010031231210
+Options0=Actv01Stop01OutO00
+Name1=L go 2
+Incoming1=MID1C001
+Outgoing1=KAM10100KSQ10004010032232210
+Options1=Actv01Stop01OutO00
+Name2=L go 3
+Incoming2=MID1C002
+Outgoing2=KAM10100KSQ10004010033233210
+Options2=Actv01Stop01OutO00
+Name3=L go 4
+Incoming3=MID1C003
+Outgoing3=KAM10100KSQ10004010034234210
+Options3=Actv01Stop01OutO00
+Name4=L set 1
+Incoming4=MID1C004
+Outgoing4=KAM10100KSQ10004011031231211
+Options4=Actv01Stop01OutO00
+Name5=L set 2
+Incoming5=MID1C005
+Outgoing5=KAM10100KSQ10004011032232211
+Options5=Actv01Stop01OutO00
+Name6=L set 3
+Incoming6=MID1C006
+Outgoing6=KAM10100KSQ10004011033233211
+Options6=Actv01Stop01OutO00
+Name7=L set 4
+Incoming7=MID1C007
+Outgoing7=KAM10100KSQ10004011034234211
+Options7=Actv01Stop01OutO00
+Name8=R go 1
+Incoming8=MID1C008
+Outgoing8=KAM10100KSQ10004010036236210
+Options8=Actv01Stop01OutO00
+Name9=R go 2
+Incoming9=MID1C009
+Outgoing9=KAM10100KSQ10004010037237210
+Options9=Actv01Stop01OutO00
+Name10=R go 3
+Incoming10=MID1C00A
+Outgoing10=KAM10100KSQ10004010038238210
+Options10=Actv01Stop01OutO00
+Name11=R go 4
+Incoming11=MID1C00B
+Outgoing11=KAM10100KSQ10004010039239210
+Options11=Actv01Stop01OutO00
+Name12=R set 1
+Incoming12=MID1C00C
+Outgoing12=KAM10100KSQ10004011036236211
+Options12=Actv01Stop01OutO00
+Name13=R set 2
+Incoming13=MID1C00D
+Outgoing13=KAM10100KSQ10004011037237211
+Options13=Actv01Stop01OutO00
+Name14=R set 3
+Incoming14=MID1C00E
+Outgoing14=KAM10100KSQ10004011038238211
+Options14=Actv01Stop01OutO00
+Name15=R set 4
+Incoming15=MID1C00F
+Outgoing15=KAM10100KSQ10004011039239211
+Options15=Actv01Stop01OutO00
+[Preset.2]
+Name=serato 2
+Active=0
+Name0=LOOP IN
+Incoming0=MID1C002
+Outgoing0=KAM10100KSQ1000401004C24C210
+Options0=Actv01Stop00OutO00
+Name1=LOOP OUT
+Incoming1=MID1C003
+Outgoing1=KAM10100KSQ100040100BA2BA210
+Options1=Actv01Stop01OutO00
+[Preset.3]
+Name=Serato full control
+Active=0
+Name0=gc = bank change error
+Incoming0=MID1
+Outgoing0=None
+Options0=Actv00Stop01OutO00
+Name1=ga = loop number
+Incoming1=MID1
+Outgoing1=None
+Options1=Actv00Stop01OutO00
+Name2=gy = interval
+Incoming2=MID1
+Outgoing2=None
+Options2=Actv01Stop00OutO00StMa00000001gy=50
+Name3=[ any ]               ( blokada )
+Incoming3=MID1C0oo
+Outgoing3=None
+Options3=Actv00Stop00OutO00StMa00000026gc=1gd=gege=oogf=gd+8if(ge==gf)goto00010gf=gd+16if(ge==gf)goto00010gf=gd+24if(ge==gf)goto00010gf=gd+32if(ge==gf)goto00010gf=gd+40if(ge==gf)goto00010gf=gd+48if(ge==gf)goto00010gf=gd+56if(ge==gf)goto00010gf=gd+64if(ge==gf)goto00010gf=gd-8if(ge==gf)goto00010gf=gd-16if(ge==gf)goto00010gf=gd-24if(ge==gf)goto00010gf=gd-32if(ge==gf)goto00010gf=gd-40if(ge==gf)goto00010gf=gd-48if(ge==gf)goto00010gf=gd-56if(ge==gf)goto00010gf=gd-64if(ge==gf)goto00010executelabel00010gc=0
+Name4=[ any ]               ( blokada )
+Incoming4=MID1C0oo
+Outgoing4=None
+Options4=Actv01Stop00OutO00StMa00000057gc=1gd=gege=oogf=gd+8if(ge==gf)goto00010gf=gd+16if(ge==gf)goto00010gf=gd+24if(ge==gf)goto00010gf=gd+32if(ge==gf)goto00010gf=gd+40if(ge==gf)goto00010gf=gd+48if(ge==gf)goto00010gf=gd+56if(ge==gf)goto00010gf=gd+64if(ge==gf)goto00010gf=gd-8if(ge==gf)goto00010gf=gd-16if(ge==gf)goto00010gf=gd-24if(ge==gf)goto00010gf=gd-32if(ge==gf)goto00010gf=gd-40if(ge==gf)goto00010gf=gd-48if(ge==gf)goto00010gf=gd-56if(ge==gf)goto00010gf=gd-64if(ge==gf)goto00010gf=gd+72if(ge==gf)goto00010gf=gd+80if(ge==gf)goto00010label00010gf=gd+88if(ge==gf)goto00010label00010gf=gd+96if(ge==gf)goto00010label00010gf=gd+104if(ge==gf)goto00010label00010gf=gd+112if(ge==gf)goto00010label00010gf=gd+120if(ge==gf)goto00010label00010gf=gd+128if(ge==gf)goto00010label00010gf=gd-72if(ge==gf)goto00010label00010gf=gd-80if(ge==gf)goto00010label00010gf=gd-88if(ge==gf)goto00010label00010gf=gd-96if(ge==gf)goto00010label00010gf=gd-104if(ge==gf)goto00010label00010gf=gd-112if(ge==gf)goto00010label00010gf=gd-120if(ge==gf)goto00010label00010gf=gd-128if(ge==gf)goto00010goto00011label00010gc=0executelabel00011gc=1
+Name5=********* GLOBAL ************
+Incoming5=MID1C000
+Outgoing5=None
+Options5=Actv00Stop01OutO00
+Name6=[ C ] tapped
+Incoming6=MID1B0517F
+Outgoing6=MID190ga7f
+Options6=Actv01Stop01OutO00
+Name7=[ C ] released
+Incoming7=MID1B05100
+Outgoing7=MID180ga7f
+Options7=Actv01Stop01OutO00
+Name8=********* BANK 1 <A> ************
+Incoming8=MID1C000
+Outgoing8=None
+Options8=Actv00Stop00OutO00
+Name9=sample 1
+Incoming9=MID1C000
+Outgoing9=KAM10100KSQ1000401005A25A210
+Options9=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=1
+Name10=sample 2
+Incoming10=MID1C001
+Outgoing10=KAM10100KSQ10004010058210258
+Options10=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=2
+Name11=sample 3
+Incoming11=MID1C002
+Outgoing11=KAM10100KSQ10004010043210243
+Options11=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=3
+Name12=sample 4
+Incoming12=MID1C003
+Outgoing12=KAM10100KSQ10004010056210256
+Options12=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name13=[ 1 ] SELECT 1
+Incoming13=MID1C040
+Outgoing13=KAM10100KSQ10002051251
+Options13=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=1
+Name14=[ 2 ] SELECT 2
+Incoming14=MID1C041
+Outgoing14=KAM10100KSQ10002057257
+Options14=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=2
+Name15=[ 3 ] SELECT 3
+Incoming15=MID1C042
+Outgoing15=KAM10100KSQ10002045245
+Options15=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=3
+Name16=[ 4 ] SELECT 4
+Incoming16=MID1C043
+Outgoing16=KAM10100KSQ10002052252
+Options16=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=4
+Name17=[ 5 ]  CLEAR 1
+Incoming17=MID1C044
+Outgoing17=MID190137f
+Options17=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name18=[ 5 ]
+Incoming18=MID1C044
+Outgoing18=MID180137f
+Options18=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name19=[ 6 ]  CLEAR 2
+Incoming19=MID1C045
+Outgoing19=MID190147f
+Options19=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name20=[ 6 ]
+Incoming20=MID1C045
+Outgoing20=MID180147f
+Options20=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name21=[ 7 ]  CLEAR 3
+Incoming21=MID1C046
+Outgoing21=MID190157f
+Options21=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name22=[ 7 ]
+Incoming22=MID1C046
+Outgoing22=MID180157f
+Options22=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name23=[ 8 ]  CLEAR 4
+Incoming23=MID1C047
+Outgoing23=MID190167f
+Options23=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name24=[ 8 ]
+Incoming24=MID1C047
+Outgoing24=MID180167f
+Options24=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name25=********* BANK 2  <A>************
+Incoming25=MID1C000
+Outgoing25=None
+Options25=Actv00Stop01OutO00
+Name26=[ 1 ] SELECT 1
+Incoming26=MID1C008
+Outgoing26=KAM10100KSQ10002054254
+Options26=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=5
+Name27=[ 2 ] SELECT 2
+Incoming27=MID1C009
+Outgoing27=KAM10100KSQ10002059259
+Options27=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=6
+Name28=[ 3 ] SELECT 3
+Incoming28=MID1C00A
+Outgoing28=KAM10100KSQ10002055255
+Options28=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=7
+Name29=[ 4 ] SELECT 4
+Incoming29=MID1C00B
+Outgoing29=KAM10100KSQ10002049249
+Options29=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=8
+Name30=[ 5 ]  MUTE 1
+Incoming30=MID1C00C
+Outgoing30=MID190177f
+Options30=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name31=[ 5 ]
+Incoming31=MID1C00C
+Outgoing31=MID180177f
+Options31=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name32=[ 6 ]  MUTE 2
+Incoming32=MID1C00D
+Outgoing32=MID190187f
+Options32=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name33=[ 6 ]
+Incoming33=MID1C00D
+Outgoing33=MID180187f
+Options33=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name34=[ 7 ]  MUTE 3
+Incoming34=MID1C00E
+Outgoing34=MID190197f
+Options34=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name35=[ 7 ]
+Incoming35=MID1C00E
+Outgoing35=MID180197f
+Options35=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name36=[ 8 ]  MUTE 4
+Incoming36=MID1C00F
+Outgoing36=MID190207f
+Options36=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name37=[ 8 ]
+Incoming37=MID1C00F
+Outgoing37=MID180207f
+Options37=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name38=********* BANK 2  <B>************
+Incoming38=MID1C000
+Outgoing38=None
+Options38=Actv00Stop01OutO00
+Name39=[ 1 ] SELECT 1
+Incoming39=MID1C048
+Outgoing39=KAM10100KSQ10002054254
+Options39=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=5
+Name40=[ 2 ] SELECT 2
+Incoming40=MID1C049
+Outgoing40=KAM10100KSQ10002059259
+Options40=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=6
+Name41=[ 3 ] SELECT 3
+Incoming41=MID1C04A
+Outgoing41=KAM10100KSQ10002055255
+Options41=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=7
+Name42=[ 4 ] SELECT 4
+Incoming42=MID1C04B
+Outgoing42=KAM10100KSQ10002049249
+Options42=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=8
+Name43=[ 5 ]  MUTE 1
+Incoming43=MID1C04C
+Outgoing43=MID190217f
+Options43=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name44=[ 5 ]
+Incoming44=MID1C04C
+Outgoing44=MID180217f
+Options44=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name45=[ 6 ]  MUTE 2
+Incoming45=MID1C04D
+Outgoing45=MID190227f
+Options45=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name46=[ 6 ]
+Incoming46=MID1C04D
+Outgoing46=MID180227f
+Options46=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name47=[ 7 ]  MUTE 3
+Incoming47=MID1C04E
+Outgoing47=MID190237f
+Options47=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name48=[ 7 ]
+Incoming48=MID1C04E
+Outgoing48=MID180237f
+Options48=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name49=[ 8 ]  MUTE 4
+Incoming49=MID1C04F
+Outgoing49=MID190247f
+Options49=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name50=[ 8 ]
+Incoming50=MID1C04F
+Outgoing50=MID180247f
+Options50=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name51=********* BANK 3  <A>************
+Incoming51=MID1C000
+Outgoing51=None
+Options51=Actv00Stop01OutO00
+Name52=[ 1 ] SEND 1
+Incoming52=MID1C010
+Outgoing52=MID190257f
+Options52=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name53=...
+Incoming53=MID1C010
+Outgoing53=MID180257f
+Options53=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name54=[ 2 ] SEND 2
+Incoming54=MID1C011
+Outgoing54=MID190267f
+Options54=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name55=...
+Incoming55=MID1C013
+Outgoing55=MID180287f
+Options55=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name56=[ 3 ] SEND 3
+Incoming56=MID1C012
+Outgoing56=MID190277f
+Options56=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name57=...
+Incoming57=MID1C012
+Outgoing57=MID180277f
+Options57=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name58=[ 4 ] SEND 4
+Incoming58=MID1C013
+Outgoing58=MID190287f
+Options58=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name59=...
+Incoming59=MID1C013
+Outgoing59=MID180287f
+Options59=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name60=********* BANK 3  <B>************
+Incoming60=MID1C000
+Outgoing60=None
+Options60=Actv00Stop01OutO00
+Name61=[ 1 ] SEND 1
+Incoming61=MID1C050
+Outgoing61=MID190257f
+Options61=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name62=...
+Incoming62=MID1C050
+Outgoing62=MID180257f
+Options62=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name63=... ga send 1
+Incoming63=MID1C050
+Outgoing63=MID190gx7f
+Options63=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name64=...
+Incoming64=MID1C050
+Outgoing64=MID180gx7f
+Options64=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name65=[ 2 ] SEND 2
+Incoming65=MID1C051
+Outgoing65=MID190267f
+Options65=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name66=...
+Incoming66=MID1C051
+Outgoing66=MID180267f
+Options66=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name67=... ga send 2
+Incoming67=MID1C051
+Outgoing67=MID190gx7f
+Options67=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name68=...
+Incoming68=MID1C051
+Outgoing68=MID180gx7f
+Options68=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name69=[ 3 ] SEND 3
+Incoming69=MID1C052
+Outgoing69=MID190277f
+Options69=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name70=...
+Incoming70=MID1C052
+Outgoing70=MID180277f
+Options70=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name71=... ga send 2
+Incoming71=MID1C052
+Outgoing71=MID190gx7f
+Options71=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name72=...
+Incoming72=MID1C052
+Outgoing72=MID180gx7f
+Options72=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name73=[ 4 ] SEND 4
+Incoming73=MID1C053
+Outgoing73=MID190287f
+Options73=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name74=...
+Incoming74=MID1C053
+Outgoing74=MID180287f
+Options74=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name75=... ga send 2
+Incoming75=MID1C053
+Outgoing75=MID190gx7f
+Options75=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name76=...
+Incoming76=MID1C053
+Outgoing76=MID180gx7f
+Options76=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name77=********* BANK 4  <A>************
+Incoming77=MID1C000
+Outgoing77=None
+Options77=Actv00Stop01OutO00
+Name78=[ 1 ] SELECT 1
+Incoming78=MID1C018
+Outgoing78=KAM10100KSQ10002051251
+Options78=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=1
+Name79=[ 2 ] SELECT 2
+Incoming79=MID1C019
+Outgoing79=KAM10100KSQ10002057257
+Options79=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=2
+Name80=[ 3 ] SELECT 3
+Incoming80=MID1C01A
+Outgoing80=KAM10100KSQ10002045245
+Options80=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=3
+Name81=[ 4 ] SELECT 4
+Incoming81=MID1C01B
+Outgoing81=KAM10100KSQ10002052252
+Options81=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name82=[ 5 ] SEND 1
+Incoming82=MID1C01C
+Outgoing82=MID190257f
+Options82=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name83=...
+Incoming83=MID1C01C
+Outgoing83=MID180257f
+Options83=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name84=... ga send 1
+Incoming84=MID1C01C
+Outgoing84=MID190gx7f
+Options84=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name85=...
+Incoming85=MID1C01C
+Outgoing85=MID180gx7f
+Options85=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name86=[ 6 ] SEND 2
+Incoming86=MID1C01D
+Outgoing86=MID190267f
+Options86=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name87=...
+Incoming87=MID1C01D
+Outgoing87=MID180267f
+Options87=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name88=... ga send 2
+Incoming88=MID1C01D
+Outgoing88=MID190gx7f
+Options88=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name89=...
+Incoming89=MID1C01D
+Outgoing89=MID180gx7f
+Options89=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name90=[ 7 ] SEND 3
+Incoming90=MID1C01E
+Outgoing90=MID190277f
+Options90=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name91=...
+Incoming91=MID1C01E
+Outgoing91=MID180277f
+Options91=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name92=... ga send 2
+Incoming92=MID1C01E
+Outgoing92=MID190gx7f
+Options92=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name93=...
+Incoming93=MID1C01E
+Outgoing93=MID180gx7f
+Options93=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name94=[ 8 ] SEND 4
+Incoming94=MID1C01F
+Outgoing94=MID190287f
+Options94=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name95=...
+Incoming95=MID1C01F
+Outgoing95=MID180287f
+Options95=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name96=... ga send 2
+Incoming96=MID1C01F
+Outgoing96=MID190gx7f
+Options96=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name97=...
+Incoming97=MID1C01F
+Outgoing97=MID180gx7f
+Options97=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name98=********* BANK 4  <B>************
+Incoming98=MID1C000
+Outgoing98=None
+Options98=Actv00Stop01OutO00
+Name99=[ 1 ] SELECT 1
+Incoming99=MID1C058
+Outgoing99=KAM10100KSQ10002054254
+Options99=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=5
+Name100=[ 2 ] SELECT 2
+Incoming100=MID1C059
+Outgoing100=KAM10100KSQ10002059259
+Options100=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=6
+Name101=[ 3 ] SELECT 3
+Incoming101=MID1C05A
+Outgoing101=KAM10100KSQ10002055255
+Options101=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=7
+Name102=[ 4 ] SELECT 4
+Incoming102=MID1C05B
+Outgoing102=KAM10100KSQ10002049249
+Options102=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=8
+Name103=[ 5 ] SEND 1
+Incoming103=MID1C05C
+Outgoing103=MID190257f
+Options103=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name104=...
+Incoming104=MID1C05C
+Outgoing104=MID180257f
+Options104=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name105=... ga send 1
+Incoming105=MID1C05C
+Outgoing105=MID190gx7f
+Options105=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name106=...
+Incoming106=MID1C05C
+Outgoing106=MID180gx7f
+Options106=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name107=[ 6 ] SEND 2
+Incoming107=MID1C05D
+Outgoing107=MID190267f
+Options107=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name108=...
+Incoming108=MID1C05D
+Outgoing108=MID180267f
+Options108=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name109=... ga send 2
+Incoming109=MID1C05D
+Outgoing109=MID190gx7f
+Options109=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name110=...
+Incoming110=MID1C05D
+Outgoing110=MID180gx7f
+Options110=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name111=[ 7 ] SEND 3
+Incoming111=MID1C05E
+Outgoing111=MID190277f
+Options111=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name112=...
+Incoming112=MID1C05E
+Outgoing112=MID180277f
+Options112=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name113=... ga send 2
+Incoming113=MID1C05E
+Outgoing113=MID190gx7f
+Options113=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name114=...
+Incoming114=MID1C05E
+Outgoing114=MID180gx7f
+Options114=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name115=[ 8 ] SEND 4
+Incoming115=MID1C05F
+Outgoing115=MID190287f
+Options115=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name116=...
+Incoming116=MID1C05F
+Outgoing116=MID180287f
+Options116=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name117=... ga send 2
+Incoming117=MID1C05F
+Outgoing117=MID190gx7f
+Options117=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name118=...
+Incoming118=MID1C05F
+Outgoing118=MID180gx7f
+Options118=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name119=********* BANK 5  <A>************
+Incoming119=MID1C000
+Outgoing119=None
+Options119=Actv00Stop01OutO00
+Name120=[ 1 ] SELECT 1
+Incoming120=MID1C020
+Outgoing120=KAM10100KSQ10002051251
+Options120=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=1
+Name121=[ 2 ] SELECT 2
+Incoming121=MID1C021
+Outgoing121=KAM10100KSQ10002057257
+Options121=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=2
+Name122=[ 3 ] SELECT 3
+Incoming122=MID1C022
+Outgoing122=KAM10100KSQ10002045245
+Options122=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=3
+Name123=[ 4 ] SELECT 4
+Incoming123=MID1C023
+Outgoing123=KAM10100KSQ10002052252
+Options123=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name124=[ 5 ] SEND 1
+Incoming124=MID1C024
+Outgoing124=MID190257f
+Options124=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name125=...
+Incoming125=MID1C024
+Outgoing125=MID180257f
+Options125=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name126=... ga send 1
+Incoming126=MID1C024
+Outgoing126=MID190gx7f
+Options126=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name127=...
+Incoming127=MID1C024
+Outgoing127=MID180gx7f
+Options127=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name128=[ 6 ] SEND 2
+Incoming128=MID1C025
+Outgoing128=MID190267f
+Options128=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name129=...
+Incoming129=MID1C025
+Outgoing129=MID180267f
+Options129=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name130=... ga send 2
+Incoming130=MID1C025
+Outgoing130=MID190gx7f
+Options130=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name131=...
+Incoming131=MID1C025
+Outgoing131=MID180gx7f
+Options131=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name132=[ 7 ] SEND 3
+Incoming132=MID1C026
+Outgoing132=MID190277f
+Options132=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name133=...
+Incoming133=MID1C026
+Outgoing133=MID180277f
+Options133=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name134=... ga send 2
+Incoming134=MID1C026
+Outgoing134=MID190gx7f
+Options134=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name135=...
+Incoming135=MID1C026
+Outgoing135=MID180gx7f
+Options135=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name136=[ 8 ] SEND 4
+Incoming136=MID1C027
+Outgoing136=MID190287f
+Options136=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name137=...
+Incoming137=MID1C027
+Outgoing137=MID180287f
+Options137=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name138=... ga send 2
+Incoming138=MID1C027
+Outgoing138=MID190gx7f
+Options138=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name139=...
+Incoming139=MID1C027
+Outgoing139=MID180gx7f
+Options139=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name140=********* BANK 5 <B> ************
+Incoming140=MID1C000
+Outgoing140=None
+Options140=Actv00Stop01OutO00
+Name141=[ 1 ] SELECT 1
+Incoming141=MID1C060
+Outgoing141=KAM10100KSQ10002051251
+Options141=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=1
+Name142=[ 2 ] SELECT 2
+Incoming142=MID1C061
+Outgoing142=KAM10100KSQ10002057257
+Options142=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=2
+Name143=[ 3 ] SELECT 3
+Incoming143=MID1C062
+Outgoing143=KAM10100KSQ10002045245
+Options143=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=3
+Name144=[ 4 ] SELECT 4
+Incoming144=MID1C063
+Outgoing144=KAM10100KSQ10002052252
+Options144=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=4
+Name145=[ 5 ]  CLEAR 1
+Incoming145=MID1C064
+Outgoing145=MID190137f
+Options145=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name146=[ 5 ]
+Incoming146=MID1C064
+Outgoing146=MID180137f
+Options146=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name147=[ 6 ]  CLEAR 2
+Incoming147=MID1C065
+Outgoing147=MID190147f
+Options147=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name148=[ 6 ]
+Incoming148=MID1C065
+Outgoing148=MID180147f
+Options148=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name149=[ 7 ]  CLEAR 3
+Incoming149=MID1C066
+Outgoing149=MID190157f
+Options149=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name150=[ 7 ]
+Incoming150=MID1C066
+Outgoing150=MID180157f
+Options150=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name151=[ 8 ]  CLEAR 4
+Incoming151=MID1C067
+Outgoing151=MID190167f
+Options151=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name152=[ 8 ]
+Incoming152=MID1C067
+Outgoing152=MID180167f
+Options152=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name153=... ga send 1
+Incoming153=MID1C064
+Outgoing153=MID190gx7f
+Options153=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name154=...
+Incoming154=MID1C064
+Outgoing154=MID180gx7f
+Options154=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name155=... ga send 2
+Incoming155=MID1C065
+Outgoing155=MID190gx7f
+Options155=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name156=...
+Incoming156=MID1C065
+Outgoing156=MID180gx7f
+Options156=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name157=... ga send 2
+Incoming157=MID1C066
+Outgoing157=MID190gx7f
+Options157=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name158=...
+Incoming158=MID1C066
+Outgoing158=MID180gx7f
+Options158=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name159=... ga send 2
+Incoming159=MID1C067
+Outgoing159=MID190gx7f
+Options159=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name160=...
+Incoming160=MID1C067
+Outgoing160=MID180gx7f
+Options160=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name161=********* BANK 6  <A>************
+Incoming161=MID1C000
+Outgoing161=None
+Options161=Actv00Stop01OutO00
+Name162=[ 1 ] SEND 1
+Incoming162=MID1C028
+Outgoing162=MID190257f
+Options162=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name163=...
+Incoming163=MID1C028
+Outgoing163=MID180257f
+Options163=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name164=[ 2 ] SEND 2
+Incoming164=MID1C029
+Outgoing164=MID190267f
+Options164=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name165=...
+Incoming165=MID1C029
+Outgoing165=MID180267f
+Options165=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name166=[ 3] SEND 3
+Incoming166=MID1C02A
+Outgoing166=MID190277f
+Options166=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name167=...
+Incoming167=MID1C02A
+Outgoing167=MID180277f
+Options167=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name168=[ 4 ] SEND 4
+Incoming168=MID1C02B
+Outgoing168=MID190287f
+Options168=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name169=...
+Incoming169=MID1C02B
+Outgoing169=MID180287f
+Options169=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name170=[ 5 ] SEND 1
+Incoming170=MID1C02C
+Outgoing170=MID190257f
+Options170=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name171=...
+Incoming171=MID1C02C
+Outgoing171=MID180257f
+Options171=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name172=[ 6 ] SEND 2
+Incoming172=MID1C02D
+Outgoing172=MID190267f
+Options172=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name173=...
+Incoming173=MID1C02D
+Outgoing173=MID180267f
+Options173=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name174=[ 7 ] SEND 3
+Incoming174=MID1C02E
+Outgoing174=MID190277f
+Options174=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name175=...
+Incoming175=MID1C02E
+Outgoing175=MID180277f
+Options175=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name176=[ 8 ] SEND 4
+Incoming176=MID1C02F
+Outgoing176=MID190287f
+Options176=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name177=...
+Incoming177=MID1C02F
+Outgoing177=MID180287f
+Options177=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name178=[ 5 ]  MUTE 1
+Incoming178=MID1C06C
+Outgoing178=MID190217f
+Options178=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name179=[ 5 ]
+Incoming179=MID1C06C
+Outgoing179=MID180217f
+Options179=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name180=[ 6 ]  MUTE 2
+Incoming180=MID1C06D
+Outgoing180=MID190227f
+Options180=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name181=[ 6 ]
+Incoming181=MID1C06D
+Outgoing181=MID180227f
+Options181=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name182=[ 7 ]  MUTE 3
+Incoming182=MID1C06E
+Outgoing182=MID190237f
+Options182=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name183=[ 7 ]
+Incoming183=MID1C06E
+Outgoing183=MID180237f
+Options183=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name184=[ 8 ]  MUTE 4
+Incoming184=MID1C06F
+Outgoing184=MID190247f
+Options184=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name185=[ 8 ]
+Incoming185=MID1C06F
+Outgoing185=MID180247f
+Options185=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0
+[Preset.4]
+Name=Copy of Serato full control
+Active=0
+Name0=gc = bank change error
+Incoming0=MID1
+Outgoing0=None
+Options0=Actv00Stop01OutO00
+Name1=ga = loop number
+Incoming1=MID1
+Outgoing1=None
+Options1=Actv00Stop01OutO00
+Name2=gy = interval
+Incoming2=MID1
+Outgoing2=None
+Options2=Actv01Stop00OutO00StMa00000001gy=50
+Name3=[ any ]               ( blokada )
+Incoming3=MID1C0oo
+Outgoing3=None
+Options3=Actv00Stop00OutO00StMa00000026gc=1gd=gege=oogf=gd+8if(ge==gf)goto00010gf=gd+16if(ge==gf)goto00010gf=gd+24if(ge==gf)goto00010gf=gd+32if(ge==gf)goto00010gf=gd+40if(ge==gf)goto00010gf=gd+48if(ge==gf)goto00010gf=gd+56if(ge==gf)goto00010gf=gd+64if(ge==gf)goto00010gf=gd-8if(ge==gf)goto00010gf=gd-16if(ge==gf)goto00010gf=gd-24if(ge==gf)goto00010gf=gd-32if(ge==gf)goto00010gf=gd-40if(ge==gf)goto00010gf=gd-48if(ge==gf)goto00010gf=gd-56if(ge==gf)goto00010gf=gd-64if(ge==gf)goto00010executelabel00010gc=0
+Name4=[ any ]               ( blokada )
+Incoming4=MID1C0oo
+Outgoing4=None
+Options4=Actv01Stop00OutO00StMa00000057gc=1gd=gege=oogf=gd+8if(ge==gf)goto00010gf=gd+16if(ge==gf)goto00010gf=gd+24if(ge==gf)goto00010gf=gd+32if(ge==gf)goto00010gf=gd+40if(ge==gf)goto00010gf=gd+48if(ge==gf)goto00010gf=gd+56if(ge==gf)goto00010gf=gd+64if(ge==gf)goto00010gf=gd-8if(ge==gf)goto00010gf=gd-16if(ge==gf)goto00010gf=gd-24if(ge==gf)goto00010gf=gd-32if(ge==gf)goto00010gf=gd-40if(ge==gf)goto00010gf=gd-48if(ge==gf)goto00010gf=gd-56if(ge==gf)goto00010gf=gd-64if(ge==gf)goto00010gf=gd+72if(ge==gf)goto00010gf=gd+80if(ge==gf)goto00010label00010gf=gd+88if(ge==gf)goto00010label00010gf=gd+96if(ge==gf)goto00010label00010gf=gd+104if(ge==gf)goto00010label00010gf=gd+112if(ge==gf)goto00010label00010gf=gd+120if(ge==gf)goto00010label00010gf=gd+128if(ge==gf)goto00010label00010gf=gd-72if(ge==gf)goto00010label00010gf=gd-80if(ge==gf)goto00010label00010gf=gd-88if(ge==gf)goto00010label00010gf=gd-96if(ge==gf)goto00010label00010gf=gd-104if(ge==gf)goto00010label00010gf=gd-112if(ge==gf)goto00010label00010gf=gd-120if(ge==gf)goto00010label00010gf=gd-128if(ge==gf)goto00010goto00011label00010gc=0executelabel00011gc=1
+Name5=********* GLOBAL ************
+Incoming5=MID1C000
+Outgoing5=None
+Options5=Actv00Stop01OutO00
+Name6=[ C ] tapped
+Incoming6=MID1B0517F
+Outgoing6=MID190ga7f
+Options6=Actv01Stop01OutO00
+Name7=[ C ] released
+Incoming7=MID1B05100
+Outgoing7=MID180ga7f
+Options7=Actv01Stop01OutO00
+Name8=********* BANK 1 <A> ************
+Incoming8=MID1C000
+Outgoing8=None
+Options8=Actv00Stop00OutO00
+Name9=sample 1
+Incoming9=MID1C000
+Outgoing9=KAM10100KSQ1000401005A25A210
+Options9=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=1
+Name10=sample 2
+Incoming10=MID1C001
+Outgoing10=KAM10100KSQ10004010058210258
+Options10=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=2
+Name11=sample 3
+Incoming11=MID1C002
+Outgoing11=KAM10100KSQ10004010043210243
+Options11=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=3
+Name12=sample 4
+Incoming12=MID1C003
+Outgoing12=KAM10100KSQ10004010056210256
+Options12=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name13=deck A prev
+Incoming13=MID1C004
+Outgoing13=KAM10100KSQ10006010012051251212210
+Options13=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name14=deck A next
+Incoming14=MID1C004
+Outgoing14=KAM10100KSQ10006010012051251212210
+Options14=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name15=[ 1 ] SELECT 1
+Incoming15=MID1C040
+Outgoing15=KAM10100KSQ10002051251
+Options15=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=1
+Name16=[ 2 ] SELECT 2
+Incoming16=MID1C041
+Outgoing16=KAM10100KSQ10002057257
+Options16=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=2
+Name17=[ 3 ] SELECT 3
+Incoming17=MID1C042
+Outgoing17=KAM10100KSQ10002045245
+Options17=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=3
+Name18=[ 4 ] SELECT 4
+Incoming18=MID1C043
+Outgoing18=KAM10100KSQ10002052252
+Options18=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=4
+Name19=[ 5 ]  CLEAR 1
+Incoming19=MID1C044
+Outgoing19=MID190137f
+Options19=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name20=[ 5 ]
+Incoming20=MID1C044
+Outgoing20=MID180137f
+Options20=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name21=[ 6 ]  CLEAR 2
+Incoming21=MID1C045
+Outgoing21=MID190147f
+Options21=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name22=[ 6 ]
+Incoming22=MID1C045
+Outgoing22=MID180147f
+Options22=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name23=[ 7 ]  CLEAR 3
+Incoming23=MID1C046
+Outgoing23=MID190157f
+Options23=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name24=[ 7 ]
+Incoming24=MID1C046
+Outgoing24=MID180157f
+Options24=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name25=[ 8 ]  CLEAR 4
+Incoming25=MID1C047
+Outgoing25=MID190167f
+Options25=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name26=[ 8 ]
+Incoming26=MID1C047
+Outgoing26=MID180167f
+Options26=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name27=********* BANK 2  <A>************
+Incoming27=MID1C000
+Outgoing27=None
+Options27=Actv00Stop01OutO00
+Name28=[ 1 ] SELECT 1
+Incoming28=MID1C008
+Outgoing28=KAM10100KSQ10002054254
+Options28=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=5
+Name29=[ 2 ] SELECT 2
+Incoming29=MID1C009
+Outgoing29=KAM10100KSQ10002059259
+Options29=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=6
+Name30=[ 3 ] SELECT 3
+Incoming30=MID1C00A
+Outgoing30=KAM10100KSQ10002055255
+Options30=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=7
+Name31=[ 4 ] SELECT 4
+Incoming31=MID1C00B
+Outgoing31=KAM10100KSQ10002049249
+Options31=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=8
+Name32=[ 5 ]  MUTE 1
+Incoming32=MID1C00C
+Outgoing32=MID190177f
+Options32=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name33=[ 5 ]
+Incoming33=MID1C00C
+Outgoing33=MID180177f
+Options33=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name34=[ 6 ]  MUTE 2
+Incoming34=MID1C00D
+Outgoing34=MID190187f
+Options34=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name35=[ 6 ]
+Incoming35=MID1C00D
+Outgoing35=MID180187f
+Options35=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name36=[ 7 ]  MUTE 3
+Incoming36=MID1C00E
+Outgoing36=MID190197f
+Options36=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name37=[ 7 ]
+Incoming37=MID1C00E
+Outgoing37=MID180197f
+Options37=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name38=[ 8 ]  MUTE 4
+Incoming38=MID1C00F
+Outgoing38=MID190207f
+Options38=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name39=[ 8 ]
+Incoming39=MID1C00F
+Outgoing39=MID180207f
+Options39=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name40=********* BANK 2  <B>************
+Incoming40=MID1C000
+Outgoing40=None
+Options40=Actv00Stop01OutO00
+Name41=[ 1 ] SELECT 1
+Incoming41=MID1C048
+Outgoing41=KAM10100KSQ10002054254
+Options41=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=5
+Name42=[ 2 ] SELECT 2
+Incoming42=MID1C049
+Outgoing42=KAM10100KSQ10002059259
+Options42=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=6
+Name43=[ 3 ] SELECT 3
+Incoming43=MID1C04A
+Outgoing43=KAM10100KSQ10002055255
+Options43=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=7
+Name44=[ 4 ] SELECT 4
+Incoming44=MID1C04B
+Outgoing44=KAM10100KSQ10002049249
+Options44=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=8
+Name45=[ 5 ]  MUTE 1
+Incoming45=MID1C04C
+Outgoing45=MID190217f
+Options45=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name46=[ 5 ]
+Incoming46=MID1C04C
+Outgoing46=MID180217f
+Options46=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name47=[ 6 ]  MUTE 2
+Incoming47=MID1C04D
+Outgoing47=MID190227f
+Options47=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name48=[ 6 ]
+Incoming48=MID1C04D
+Outgoing48=MID180227f
+Options48=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name49=[ 7 ]  MUTE 3
+Incoming49=MID1C04E
+Outgoing49=MID190237f
+Options49=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name50=[ 7 ]
+Incoming50=MID1C04E
+Outgoing50=MID180237f
+Options50=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name51=[ 8 ]  MUTE 4
+Incoming51=MID1C04F
+Outgoing51=MID190247f
+Options51=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name52=[ 8 ]
+Incoming52=MID1C04F
+Outgoing52=MID180247f
+Options52=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name53=********* BANK 3  <A>************
+Incoming53=MID1C000
+Outgoing53=None
+Options53=Actv00Stop01OutO00
+Name54=[ 1 ] SEND 1
+Incoming54=MID1C010
+Outgoing54=MID190257f
+Options54=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name55=...
+Incoming55=MID1C010
+Outgoing55=MID180257f
+Options55=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name56=[ 2 ] SEND 2
+Incoming56=MID1C011
+Outgoing56=MID190267f
+Options56=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name57=...
+Incoming57=MID1C013
+Outgoing57=MID180287f
+Options57=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name58=[ 3 ] SEND 3
+Incoming58=MID1C012
+Outgoing58=MID190277f
+Options58=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name59=...
+Incoming59=MID1C012
+Outgoing59=MID180277f
+Options59=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name60=[ 4 ] SEND 4
+Incoming60=MID1C013
+Outgoing60=MID190287f
+Options60=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name61=...
+Incoming61=MID1C013
+Outgoing61=MID180287f
+Options61=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name62=********* BANK 3  <B>************
+Incoming62=MID1C000
+Outgoing62=None
+Options62=Actv00Stop01OutO00
+Name63=[ 1 ] SEND 1
+Incoming63=MID1C050
+Outgoing63=MID190257f
+Options63=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name64=...
+Incoming64=MID1C050
+Outgoing64=MID180257f
+Options64=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name65=... ga send 1
+Incoming65=MID1C050
+Outgoing65=MID190gx7f
+Options65=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name66=...
+Incoming66=MID1C050
+Outgoing66=MID180gx7f
+Options66=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name67=[ 2 ] SEND 2
+Incoming67=MID1C051
+Outgoing67=MID190267f
+Options67=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name68=...
+Incoming68=MID1C051
+Outgoing68=MID180267f
+Options68=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name69=... ga send 2
+Incoming69=MID1C051
+Outgoing69=MID190gx7f
+Options69=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name70=...
+Incoming70=MID1C051
+Outgoing70=MID180gx7f
+Options70=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name71=[ 3 ] SEND 3
+Incoming71=MID1C052
+Outgoing71=MID190277f
+Options71=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name72=...
+Incoming72=MID1C052
+Outgoing72=MID180277f
+Options72=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name73=... ga send 2
+Incoming73=MID1C052
+Outgoing73=MID190gx7f
+Options73=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name74=...
+Incoming74=MID1C052
+Outgoing74=MID180gx7f
+Options74=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name75=[ 4 ] SEND 4
+Incoming75=MID1C053
+Outgoing75=MID190287f
+Options75=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name76=...
+Incoming76=MID1C053
+Outgoing76=MID180287f
+Options76=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name77=... ga send 2
+Incoming77=MID1C053
+Outgoing77=MID190gx7f
+Options77=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name78=...
+Incoming78=MID1C053
+Outgoing78=MID180gx7f
+Options78=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name79=********* BANK 4  <A>************
+Incoming79=MID1C000
+Outgoing79=None
+Options79=Actv00Stop01OutO00
+Name80=[ 1 ] SELECT 1
+Incoming80=MID1C018
+Outgoing80=KAM10100KSQ10002051251
+Options80=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=1
+Name81=[ 2 ] SELECT 2
+Incoming81=MID1C019
+Outgoing81=KAM10100KSQ10002057257
+Options81=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=2
+Name82=[ 3 ] SELECT 3
+Incoming82=MID1C01A
+Outgoing82=KAM10100KSQ10002045245
+Options82=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=3
+Name83=[ 4 ] SELECT 4
+Incoming83=MID1C01B
+Outgoing83=KAM10100KSQ10002052252
+Options83=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name84=[ 5 ] SEND 1
+Incoming84=MID1C01C
+Outgoing84=MID190257f
+Options84=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name85=...
+Incoming85=MID1C01C
+Outgoing85=MID180257f
+Options85=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name86=... ga send 1
+Incoming86=MID1C01C
+Outgoing86=MID190gx7f
+Options86=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name87=...
+Incoming87=MID1C01C
+Outgoing87=MID180gx7f
+Options87=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name88=[ 6 ] SEND 2
+Incoming88=MID1C01D
+Outgoing88=MID190267f
+Options88=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name89=...
+Incoming89=MID1C01D
+Outgoing89=MID180267f
+Options89=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name90=... ga send 2
+Incoming90=MID1C01D
+Outgoing90=MID190gx7f
+Options90=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name91=...
+Incoming91=MID1C01D
+Outgoing91=MID180gx7f
+Options91=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name92=[ 7 ] SEND 3
+Incoming92=MID1C01E
+Outgoing92=MID190277f
+Options92=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name93=...
+Incoming93=MID1C01E
+Outgoing93=MID180277f
+Options93=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name94=... ga send 2
+Incoming94=MID1C01E
+Outgoing94=MID190gx7f
+Options94=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name95=...
+Incoming95=MID1C01E
+Outgoing95=MID180gx7f
+Options95=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name96=[ 8 ] SEND 4
+Incoming96=MID1C01F
+Outgoing96=MID190287f
+Options96=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name97=...
+Incoming97=MID1C01F
+Outgoing97=MID180287f
+Options97=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name98=... ga send 2
+Incoming98=MID1C01F
+Outgoing98=MID190gx7f
+Options98=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name99=...
+Incoming99=MID1C01F
+Outgoing99=MID180gx7f
+Options99=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name100=********* BANK 4  <B>************
+Incoming100=MID1C000
+Outgoing100=None
+Options100=Actv00Stop01OutO00
+Name101=[ 1 ] SELECT 1
+Incoming101=MID1C058
+Outgoing101=KAM10100KSQ10002054254
+Options101=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=5
+Name102=[ 2 ] SELECT 2
+Incoming102=MID1C059
+Outgoing102=KAM10100KSQ10002059259
+Options102=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=6
+Name103=[ 3 ] SELECT 3
+Incoming103=MID1C05A
+Outgoing103=KAM10100KSQ10002055255
+Options103=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=7
+Name104=[ 4 ] SELECT 4
+Incoming104=MID1C05B
+Outgoing104=KAM10100KSQ10002049249
+Options104=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=8
+Name105=[ 5 ] SEND 1
+Incoming105=MID1C05C
+Outgoing105=MID190257f
+Options105=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name106=...
+Incoming106=MID1C05C
+Outgoing106=MID180257f
+Options106=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name107=... ga send 1
+Incoming107=MID1C05C
+Outgoing107=MID190gx7f
+Options107=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name108=...
+Incoming108=MID1C05C
+Outgoing108=MID180gx7f
+Options108=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name109=[ 6 ] SEND 2
+Incoming109=MID1C05D
+Outgoing109=MID190267f
+Options109=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name110=...
+Incoming110=MID1C05D
+Outgoing110=MID180267f
+Options110=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name111=... ga send 2
+Incoming111=MID1C05D
+Outgoing111=MID190gx7f
+Options111=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name112=...
+Incoming112=MID1C05D
+Outgoing112=MID180gx7f
+Options112=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name113=[ 7 ] SEND 3
+Incoming113=MID1C05E
+Outgoing113=MID190277f
+Options113=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name114=...
+Incoming114=MID1C05E
+Outgoing114=MID180277f
+Options114=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name115=... ga send 2
+Incoming115=MID1C05E
+Outgoing115=MID190gx7f
+Options115=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name116=...
+Incoming116=MID1C05E
+Outgoing116=MID180gx7f
+Options116=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name117=[ 8 ] SEND 4
+Incoming117=MID1C05F
+Outgoing117=MID190287f
+Options117=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name118=...
+Incoming118=MID1C05F
+Outgoing118=MID180287f
+Options118=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name119=... ga send 2
+Incoming119=MID1C05F
+Outgoing119=MID190gx7f
+Options119=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name120=...
+Incoming120=MID1C05F
+Outgoing120=MID180gx7f
+Options120=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name121=********* BANK 5  <A>************
+Incoming121=MID1C000
+Outgoing121=None
+Options121=Actv00Stop01OutO00
+Name122=[ 1 ] SELECT 1
+Incoming122=MID1C020
+Outgoing122=KAM10100KSQ10002051251
+Options122=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=1
+Name123=[ 2 ] SELECT 2
+Incoming123=MID1C021
+Outgoing123=KAM10100KSQ10002057257
+Options123=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=2
+Name124=[ 3 ] SELECT 3
+Incoming124=MID1C022
+Outgoing124=KAM10100KSQ10002045245
+Options124=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=3
+Name125=[ 4 ] SELECT 4
+Incoming125=MID1C023
+Outgoing125=KAM10100KSQ10002052252
+Options125=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name126=[ 5 ] SEND 1
+Incoming126=MID1C024
+Outgoing126=MID190257f
+Options126=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name127=...
+Incoming127=MID1C024
+Outgoing127=MID180257f
+Options127=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name128=... ga send 1
+Incoming128=MID1C024
+Outgoing128=MID190gx7f
+Options128=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name129=...
+Incoming129=MID1C024
+Outgoing129=MID180gx7f
+Options129=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name130=[ 6 ] SEND 2
+Incoming130=MID1C025
+Outgoing130=MID190267f
+Options130=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name131=...
+Incoming131=MID1C025
+Outgoing131=MID180267f
+Options131=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name132=... ga send 2
+Incoming132=MID1C025
+Outgoing132=MID190gx7f
+Options132=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name133=...
+Incoming133=MID1C025
+Outgoing133=MID180gx7f
+Options133=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name134=[ 7 ] SEND 3
+Incoming134=MID1C026
+Outgoing134=MID190277f
+Options134=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name135=...
+Incoming135=MID1C026
+Outgoing135=MID180277f
+Options135=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name136=... ga send 2
+Incoming136=MID1C026
+Outgoing136=MID190gx7f
+Options136=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name137=...
+Incoming137=MID1C026
+Outgoing137=MID180gx7f
+Options137=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name138=[ 8 ] SEND 4
+Incoming138=MID1C027
+Outgoing138=MID190287f
+Options138=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name139=...
+Incoming139=MID1C027
+Outgoing139=MID180287f
+Options139=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name140=... ga send 2
+Incoming140=MID1C027
+Outgoing140=MID190gx7f
+Options140=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name141=...
+Incoming141=MID1C027
+Outgoing141=MID180gx7f
+Options141=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name142=********* BANK 5 <B> ************
+Incoming142=MID1C000
+Outgoing142=None
+Options142=Actv00Stop01OutO00
+Name143=[ 1 ] SELECT 1
+Incoming143=MID1C060
+Outgoing143=KAM10100KSQ10002051251
+Options143=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=1
+Name144=[ 2 ] SELECT 2
+Incoming144=MID1C061
+Outgoing144=KAM10100KSQ10002057257
+Options144=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=2
+Name145=[ 3 ] SELECT 3
+Incoming145=MID1C062
+Outgoing145=KAM10100KSQ10002045245
+Options145=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=3
+Name146=[ 4 ] SELECT 4
+Incoming146=MID1C063
+Outgoing146=KAM10100KSQ10002052252
+Options146=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=4
+Name147=[ 5 ]  CLEAR 1
+Incoming147=MID1C064
+Outgoing147=MID190137f
+Options147=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name148=[ 5 ]
+Incoming148=MID1C064
+Outgoing148=MID180137f
+Options148=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name149=[ 6 ]  CLEAR 2
+Incoming149=MID1C065
+Outgoing149=MID190147f
+Options149=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name150=[ 6 ]
+Incoming150=MID1C065
+Outgoing150=MID180147f
+Options150=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name151=[ 7 ]  CLEAR 3
+Incoming151=MID1C066
+Outgoing151=MID190157f
+Options151=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name152=[ 7 ]
+Incoming152=MID1C066
+Outgoing152=MID180157f
+Options152=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name153=[ 8 ]  CLEAR 4
+Incoming153=MID1C067
+Outgoing153=MID190167f
+Options153=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name154=[ 8 ]
+Incoming154=MID1C067
+Outgoing154=MID180167f
+Options154=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name155=... ga send 1
+Incoming155=MID1C064
+Outgoing155=MID190gx7f
+Options155=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name156=...
+Incoming156=MID1C064
+Outgoing156=MID180gx7f
+Options156=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name157=... ga send 2
+Incoming157=MID1C065
+Outgoing157=MID190gx7f
+Options157=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name158=...
+Incoming158=MID1C065
+Outgoing158=MID180gx7f
+Options158=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name159=... ga send 2
+Incoming159=MID1C066
+Outgoing159=MID190gx7f
+Options159=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name160=...
+Incoming160=MID1C066
+Outgoing160=MID180gx7f
+Options160=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name161=... ga send 2
+Incoming161=MID1C067
+Outgoing161=MID190gx7f
+Options161=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name162=...
+Incoming162=MID1C067
+Outgoing162=MID180gx7f
+Options162=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name163=********* BANK 6  <A>************
+Incoming163=MID1C000
+Outgoing163=None
+Options163=Actv00Stop01OutO00
+Name164=[ 1 ] SEND 1
+Incoming164=MID1C028
+Outgoing164=MID190257f
+Options164=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name165=...
+Incoming165=MID1C028
+Outgoing165=MID180257f
+Options165=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name166=[ 2 ] SEND 2
+Incoming166=MID1C029
+Outgoing166=MID190267f
+Options166=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name167=...
+Incoming167=MID1C029
+Outgoing167=MID180267f
+Options167=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name168=[ 3] SEND 3
+Incoming168=MID1C02A
+Outgoing168=MID190277f
+Options168=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name169=...
+Incoming169=MID1C02A
+Outgoing169=MID180277f
+Options169=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name170=[ 4 ] SEND 4
+Incoming170=MID1C02B
+Outgoing170=MID190287f
+Options170=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name171=...
+Incoming171=MID1C02B
+Outgoing171=MID180287f
+Options171=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name172=[ 5 ] SEND 1
+Incoming172=MID1C02C
+Outgoing172=MID190257f
+Options172=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name173=...
+Incoming173=MID1C02C
+Outgoing173=MID180257f
+Options173=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name174=[ 6 ] SEND 2
+Incoming174=MID1C02D
+Outgoing174=MID190267f
+Options174=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name175=...
+Incoming175=MID1C02D
+Outgoing175=MID180267f
+Options175=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name176=[ 7 ] SEND 3
+Incoming176=MID1C02E
+Outgoing176=MID190277f
+Options176=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name177=...
+Incoming177=MID1C02E
+Outgoing177=MID180277f
+Options177=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name178=[ 8 ] SEND 4
+Incoming178=MID1C02F
+Outgoing178=MID190287f
+Options178=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name179=...
+Incoming179=MID1C02F
+Outgoing179=MID180287f
+Options179=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name180=[ 5 ]  MUTE 1
+Incoming180=MID1C06C
+Outgoing180=MID190217f
+Options180=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name181=[ 5 ]
+Incoming181=MID1C06C
+Outgoing181=MID180217f
+Options181=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name182=[ 6 ]  MUTE 2
+Incoming182=MID1C06D
+Outgoing182=MID190227f
+Options182=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name183=[ 6 ]
+Incoming183=MID1C06D
+Outgoing183=MID180227f
+Options183=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name184=[ 7 ]  MUTE 3
+Incoming184=MID1C06E
+Outgoing184=MID190237f
+Options184=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name185=[ 7 ]
+Incoming185=MID1C06E
+Outgoing185=MID180237f
+Options185=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name186=[ 8 ]  MUTE 4
+Incoming186=MID1C06F
+Outgoing186=MID190247f
+Options186=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name187=[ 8 ]
+Incoming187=MID1C06F
+Outgoing187=MID180247f
+Options187=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0
+[Preset.5]
+Name=Copy (2) of Serato full control
+Active=1
+Name0=gc = bank change error
+Incoming0=MID1
+Outgoing0=None
+Options0=Actv00Stop01OutO00
+Name1=ga = loop number
+Incoming1=MID1
+Outgoing1=None
+Options1=Actv00Stop01OutO00
+Name2=gy = interval
+Incoming2=MID1
+Outgoing2=None
+Options2=Actv01Stop00OutO00StMa00000001gy=50
+Name3=[ any ]               ( blokada )
+Incoming3=MID1C0oo
+Outgoing3=None
+Options3=Actv00Stop00OutO00StMa00000026gc=1gd=gege=oogf=gd+8if(ge==gf)goto00010gf=gd+16if(ge==gf)goto00010gf=gd+24if(ge==gf)goto00010gf=gd+32if(ge==gf)goto00010gf=gd+40if(ge==gf)goto00010gf=gd+48if(ge==gf)goto00010gf=gd+56if(ge==gf)goto00010gf=gd+64if(ge==gf)goto00010gf=gd-8if(ge==gf)goto00010gf=gd-16if(ge==gf)goto00010gf=gd-24if(ge==gf)goto00010gf=gd-32if(ge==gf)goto00010gf=gd-40if(ge==gf)goto00010gf=gd-48if(ge==gf)goto00010gf=gd-56if(ge==gf)goto00010gf=gd-64if(ge==gf)goto00010executelabel00010gc=0
+Name4=[ any ]               ( blokada )
+Incoming4=MID1C0oo
+Outgoing4=None
+Options4=Actv01Stop00OutO00StMa00000057gc=1gd=gege=oogf=gd+8if(ge==gf)goto00010gf=gd+16if(ge==gf)goto00010gf=gd+24if(ge==gf)goto00010gf=gd+32if(ge==gf)goto00010gf=gd+40if(ge==gf)goto00010gf=gd+48if(ge==gf)goto00010gf=gd+56if(ge==gf)goto00010gf=gd+64if(ge==gf)goto00010gf=gd-8if(ge==gf)goto00010gf=gd-16if(ge==gf)goto00010gf=gd-24if(ge==gf)goto00010gf=gd-32if(ge==gf)goto00010gf=gd-40if(ge==gf)goto00010gf=gd-48if(ge==gf)goto00010gf=gd-56if(ge==gf)goto00010gf=gd-64if(ge==gf)goto00010gf=gd+72if(ge==gf)goto00010gf=gd+80if(ge==gf)goto00010label00010gf=gd+88if(ge==gf)goto00010label00010gf=gd+96if(ge==gf)goto00010label00010gf=gd+104if(ge==gf)goto00010label00010gf=gd+112if(ge==gf)goto00010label00010gf=gd+120if(ge==gf)goto00010label00010gf=gd+128if(ge==gf)goto00010label00010gf=gd-72if(ge==gf)goto00010label00010gf=gd-80if(ge==gf)goto00010label00010gf=gd-88if(ge==gf)goto00010label00010gf=gd-96if(ge==gf)goto00010label00010gf=gd-104if(ge==gf)goto00010label00010gf=gd-112if(ge==gf)goto00010label00010gf=gd-120if(ge==gf)goto00010label00010gf=gd-128if(ge==gf)goto00010goto00011label00010gc=0executelabel00011gc=1
+Name5=********* GLOBAL ************
+Incoming5=MID1C000
+Outgoing5=None
+Options5=Actv00Stop01OutO00
+Name6=[ C ] tapped
+Incoming6=MID1B0517F
+Outgoing6=KAM10100KSQ1000401004E24E210
+Options6=Actv01Stop01OutO00
+Name7=[ C ] tapped
+Incoming7=MID1B0517F
+Outgoing7=MID190ga7f
+Options7=Actv00Stop01OutO00
+Name8=[ C ] released
+Incoming8=MID1B05100
+Outgoing8=MID180ga7f
+Options8=Actv00Stop01OutO00
+Name9=********* BANK 1 <A> ************
+Incoming9=MID1C000
+Outgoing9=None
+Options9=Actv00Stop00OutO00
+Name10=sample 1
+Incoming10=MID1C000
+Outgoing10=KAM10100KSQ1000401005A25A210
+Options10=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=1
+Name11=sample 2
+Incoming11=MID1C001
+Outgoing11=KAM10100KSQ10004010058210258
+Options11=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=2
+Name12=sample 3
+Incoming12=MID1C002
+Outgoing12=KAM10100KSQ10004010043210243
+Options12=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=3
+Name13=sample 4
+Incoming13=MID1C003
+Outgoing13=KAM10100KSQ10004010056210256
+Options13=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name14=LOOP R ON
+Incoming14=MID1C007
+Outgoing14=KAM10100KSQ100040100DE2DE210
+Options14=Actv01Stop01OutO00
+Name15=deck A prev
+Incoming15=MID1C004
+Outgoing15=KAM10100KSQ10006010012051251212210
+Options15=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name16=deck B prev
+Incoming16=MID1C004
+Outgoing16=KAM10100KSQ10006010012041212241210
+Options16=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name17=deck A next
+Incoming17=MID1C004
+Outgoing17=KAM10100KSQ10006010012057212257210
+Options17=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name18=deck B next
+Incoming18=MID1C004
+Outgoing18=KAM10100KSQ10006010012053253212210
+Options18=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name19=[ 1 ] SELECT 1
+Incoming19=MID1C040
+Outgoing19=KAM10100KSQ10002051251
+Options19=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=1
+Name20=[ 2 ] SELECT 2
+Incoming20=MID1C041
+Outgoing20=KAM10100KSQ10002057257
+Options20=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=2
+Name21=[ 3 ] SELECT 3
+Incoming21=MID1C042
+Outgoing21=KAM10100KSQ10002045245
+Options21=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=3
+Name22=[ 4 ] SELECT 4
+Incoming22=MID1C043
+Outgoing22=KAM10100KSQ10002052252
+Options22=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=4
+Name23=[ 5 ]  CLEAR 1
+Incoming23=MID1C044
+Outgoing23=MID190137f
+Options23=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name24=[ 5 ]
+Incoming24=MID1C044
+Outgoing24=MID180137f
+Options24=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name25=[ 6 ]  CLEAR 2
+Incoming25=MID1C045
+Outgoing25=MID190147f
+Options25=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name26=[ 6 ]
+Incoming26=MID1C045
+Outgoing26=MID180147f
+Options26=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name27=[ 7 ]  CLEAR 3
+Incoming27=MID1C046
+Outgoing27=MID190157f
+Options27=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name28=[ 7 ]
+Incoming28=MID1C046
+Outgoing28=MID180157f
+Options28=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name29=[ 8 ]  CLEAR 4
+Incoming29=MID1C047
+Outgoing29=MID190167f
+Options29=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name30=[ 8 ]
+Incoming30=MID1C047
+Outgoing30=MID180167f
+Options30=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name31=********* BANK 2  <A>************
+Incoming31=MID1C000
+Outgoing31=None
+Options31=Actv00Stop01OutO00
+Name32=[ 1 ] SELECT 1
+Incoming32=MID1C008
+Outgoing32=KAM10100KSQ10002054254
+Options32=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=5
+Name33=[ 2 ] SELECT 2
+Incoming33=MID1C009
+Outgoing33=KAM10100KSQ10002059259
+Options33=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=6
+Name34=[ 3 ] SELECT 3
+Incoming34=MID1C00A
+Outgoing34=KAM10100KSQ10002055255
+Options34=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=7
+Name35=[ 4 ] SELECT 4
+Incoming35=MID1C00B
+Outgoing35=KAM10100KSQ10002049249
+Options35=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutega=8
+Name36=[ 5 ]  MUTE 1
+Incoming36=MID1C00C
+Outgoing36=MID190177f
+Options36=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name37=[ 5 ]
+Incoming37=MID1C00C
+Outgoing37=MID180177f
+Options37=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name38=[ 6 ]  MUTE 2
+Incoming38=MID1C00D
+Outgoing38=MID190187f
+Options38=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name39=[ 6 ]
+Incoming39=MID1C00D
+Outgoing39=MID180187f
+Options39=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name40=[ 7 ]  MUTE 3
+Incoming40=MID1C00E
+Outgoing40=MID190197f
+Options40=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name41=[ 7 ]
+Incoming41=MID1C00E
+Outgoing41=MID180197f
+Options41=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name42=[ 8 ]  MUTE 4
+Incoming42=MID1C00F
+Outgoing42=MID190207f
+Options42=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name43=[ 8 ]
+Incoming43=MID1C00F
+Outgoing43=MID180207f
+Options43=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name44=********* BANK 2  <B>************
+Incoming44=MID1C000
+Outgoing44=None
+Options44=Actv00Stop01OutO00
+Name45=[ 1 ] SELECT 1
+Incoming45=MID1C048
+Outgoing45=KAM10100KSQ10002054254
+Options45=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=5
+Name46=[ 2 ] SELECT 2
+Incoming46=MID1C049
+Outgoing46=KAM10100KSQ10002059259
+Options46=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=6
+Name47=[ 3 ] SELECT 3
+Incoming47=MID1C04A
+Outgoing47=KAM10100KSQ10002055255
+Options47=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=7
+Name48=[ 4 ] SELECT 4
+Incoming48=MID1C04B
+Outgoing48=KAM10100KSQ10002049249
+Options48=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=8
+Name49=[ 5 ]  MUTE 1
+Incoming49=MID1C04C
+Outgoing49=MID190217f
+Options49=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name50=[ 5 ]
+Incoming50=MID1C04C
+Outgoing50=MID180217f
+Options50=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name51=[ 6 ]  MUTE 2
+Incoming51=MID1C04D
+Outgoing51=MID190227f
+Options51=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name52=[ 6 ]
+Incoming52=MID1C04D
+Outgoing52=MID180227f
+Options52=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name53=[ 7 ]  MUTE 3
+Incoming53=MID1C04E
+Outgoing53=MID190237f
+Options53=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name54=[ 7 ]
+Incoming54=MID1C04E
+Outgoing54=MID180237f
+Options54=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name55=[ 8 ]  MUTE 4
+Incoming55=MID1C04F
+Outgoing55=MID190247f
+Options55=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name56=[ 8 ]
+Incoming56=MID1C04F
+Outgoing56=MID180247f
+Options56=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name57=********* BANK 3  <A>************
+Incoming57=MID1C000
+Outgoing57=None
+Options57=Actv00Stop01OutO00
+Name58=[ 1 ] SEND 1
+Incoming58=MID1C010
+Outgoing58=MID190257f
+Options58=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name59=...
+Incoming59=MID1C010
+Outgoing59=MID180257f
+Options59=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name60=[ 2 ] SEND 2
+Incoming60=MID1C011
+Outgoing60=MID190267f
+Options60=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name61=...
+Incoming61=MID1C013
+Outgoing61=MID180287f
+Options61=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name62=[ 3 ] SEND 3
+Incoming62=MID1C012
+Outgoing62=MID190277f
+Options62=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name63=...
+Incoming63=MID1C012
+Outgoing63=MID180277f
+Options63=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name64=[ 4 ] SEND 4
+Incoming64=MID1C013
+Outgoing64=MID190287f
+Options64=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name65=...
+Incoming65=MID1C013
+Outgoing65=MID180287f
+Options65=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name66=********* BANK 3  <B>************
+Incoming66=MID1C000
+Outgoing66=None
+Options66=Actv00Stop01OutO00
+Name67=[ 1 ] SEND 1
+Incoming67=MID1C050
+Outgoing67=MID190257f
+Options67=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name68=...
+Incoming68=MID1C050
+Outgoing68=MID180257f
+Options68=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name69=... ga send 1
+Incoming69=MID1C050
+Outgoing69=MID190gx7f
+Options69=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name70=...
+Incoming70=MID1C050
+Outgoing70=MID180gx7f
+Options70=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name71=[ 2 ] SEND 2
+Incoming71=MID1C051
+Outgoing71=MID190267f
+Options71=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name72=...
+Incoming72=MID1C051
+Outgoing72=MID180267f
+Options72=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name73=... ga send 2
+Incoming73=MID1C051
+Outgoing73=MID190gx7f
+Options73=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name74=...
+Incoming74=MID1C051
+Outgoing74=MID180gx7f
+Options74=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name75=[ 3 ] SEND 3
+Incoming75=MID1C052
+Outgoing75=MID190277f
+Options75=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name76=...
+Incoming76=MID1C052
+Outgoing76=MID180277f
+Options76=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name77=... ga send 2
+Incoming77=MID1C052
+Outgoing77=MID190gx7f
+Options77=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name78=...
+Incoming78=MID1C052
+Outgoing78=MID180gx7f
+Options78=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name79=[ 4 ] SEND 4
+Incoming79=MID1C053
+Outgoing79=MID190287f
+Options79=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name80=...
+Incoming80=MID1C053
+Outgoing80=MID180287f
+Options80=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name81=... ga send 2
+Incoming81=MID1C053
+Outgoing81=MID190gx7f
+Options81=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name82=...
+Incoming82=MID1C053
+Outgoing82=MID180gx7f
+Options82=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name83=********* BANK 4  <A>************
+Incoming83=MID1C000
+Outgoing83=None
+Options83=Actv00Stop01OutO00
+Name84=[ 1 ] SELECT 1
+Incoming84=MID1C018
+Outgoing84=KAM10100KSQ10002051251
+Options84=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=1
+Name85=[ 2 ] SELECT 2
+Incoming85=MID1C019
+Outgoing85=KAM10100KSQ10002057257
+Options85=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=2
+Name86=[ 3 ] SELECT 3
+Incoming86=MID1C01A
+Outgoing86=KAM10100KSQ10002045245
+Options86=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=3
+Name87=[ 4 ] SELECT 4
+Incoming87=MID1C01B
+Outgoing87=KAM10100KSQ10002052252
+Options87=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name88=[ 5 ] SEND 1
+Incoming88=MID1C01C
+Outgoing88=MID190257f
+Options88=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name89=...
+Incoming89=MID1C01C
+Outgoing89=MID180257f
+Options89=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name90=... ga send 1
+Incoming90=MID1C01C
+Outgoing90=MID190gx7f
+Options90=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name91=...
+Incoming91=MID1C01C
+Outgoing91=MID180gx7f
+Options91=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name92=[ 6 ] SEND 2
+Incoming92=MID1C01D
+Outgoing92=MID190267f
+Options92=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name93=...
+Incoming93=MID1C01D
+Outgoing93=MID180267f
+Options93=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name94=... ga send 2
+Incoming94=MID1C01D
+Outgoing94=MID190gx7f
+Options94=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name95=...
+Incoming95=MID1C01D
+Outgoing95=MID180gx7f
+Options95=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name96=[ 7 ] SEND 3
+Incoming96=MID1C01E
+Outgoing96=MID190277f
+Options96=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name97=...
+Incoming97=MID1C01E
+Outgoing97=MID180277f
+Options97=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name98=... ga send 2
+Incoming98=MID1C01E
+Outgoing98=MID190gx7f
+Options98=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name99=...
+Incoming99=MID1C01E
+Outgoing99=MID180gx7f
+Options99=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name100=[ 8 ] SEND 4
+Incoming100=MID1C01F
+Outgoing100=MID190287f
+Options100=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name101=...
+Incoming101=MID1C01F
+Outgoing101=MID180287f
+Options101=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name102=... ga send 2
+Incoming102=MID1C01F
+Outgoing102=MID190gx7f
+Options102=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name103=...
+Incoming103=MID1C01F
+Outgoing103=MID180gx7f
+Options103=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name104=********* BANK 4  <B>************
+Incoming104=MID1C000
+Outgoing104=None
+Options104=Actv00Stop01OutO00
+Name105=[ 1 ] SELECT 1
+Incoming105=MID1C058
+Outgoing105=KAM10100KSQ10002054254
+Options105=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=5
+Name106=[ 2 ] SELECT 2
+Incoming106=MID1C059
+Outgoing106=KAM10100KSQ10002059259
+Options106=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=6
+Name107=[ 3 ] SELECT 3
+Incoming107=MID1C05A
+Outgoing107=KAM10100KSQ10002055255
+Options107=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=7
+Name108=[ 4 ] SELECT 4
+Incoming108=MID1C05B
+Outgoing108=KAM10100KSQ10002049249
+Options108=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=8
+Name109=[ 5 ] SEND 1
+Incoming109=MID1C05C
+Outgoing109=MID190257f
+Options109=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name110=...
+Incoming110=MID1C05C
+Outgoing110=MID180257f
+Options110=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name111=... ga send 1
+Incoming111=MID1C05C
+Outgoing111=MID190gx7f
+Options111=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name112=...
+Incoming112=MID1C05C
+Outgoing112=MID180gx7f
+Options112=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name113=[ 6 ] SEND 2
+Incoming113=MID1C05D
+Outgoing113=MID190267f
+Options113=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name114=...
+Incoming114=MID1C05D
+Outgoing114=MID180267f
+Options114=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name115=... ga send 2
+Incoming115=MID1C05D
+Outgoing115=MID190gx7f
+Options115=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name116=...
+Incoming116=MID1C05D
+Outgoing116=MID180gx7f
+Options116=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name117=[ 7 ] SEND 3
+Incoming117=MID1C05E
+Outgoing117=MID190277f
+Options117=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name118=...
+Incoming118=MID1C05E
+Outgoing118=MID180277f
+Options118=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name119=... ga send 2
+Incoming119=MID1C05E
+Outgoing119=MID190gx7f
+Options119=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name120=...
+Incoming120=MID1C05E
+Outgoing120=MID180gx7f
+Options120=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name121=[ 8 ] SEND 4
+Incoming121=MID1C05F
+Outgoing121=MID190287f
+Options121=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name122=...
+Incoming122=MID1C05F
+Outgoing122=MID180287f
+Options122=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name123=... ga send 2
+Incoming123=MID1C05F
+Outgoing123=MID190gx7f
+Options123=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name124=...
+Incoming124=MID1C05F
+Outgoing124=MID180gx7f
+Options124=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name125=********* BANK 5  <A>************
+Incoming125=MID1C000
+Outgoing125=None
+Options125=Actv00Stop01OutO00
+Name126=[ 1 ] SELECT 1
+Incoming126=MID1C020
+Outgoing126=KAM10100KSQ10002051251
+Options126=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=1
+Name127=[ 2 ] SELECT 2
+Incoming127=MID1C021
+Outgoing127=KAM10100KSQ10002057257
+Options127=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=2
+Name128=[ 3 ] SELECT 3
+Incoming128=MID1C022
+Outgoing128=KAM10100KSQ10002045245
+Options128=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=3
+Name129=[ 4 ] SELECT 4
+Incoming129=MID1C023
+Outgoing129=KAM10100KSQ10002052252
+Options129=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutega=4
+Name130=[ 5 ] SEND 1
+Incoming130=MID1C024
+Outgoing130=MID190257f
+Options130=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name131=...
+Incoming131=MID1C024
+Outgoing131=MID180257f
+Options131=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name132=... ga send 1
+Incoming132=MID1C024
+Outgoing132=MID190gx7f
+Options132=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name133=...
+Incoming133=MID1C024
+Outgoing133=MID180gx7f
+Options133=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name134=[ 6 ] SEND 2
+Incoming134=MID1C025
+Outgoing134=MID190267f
+Options134=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name135=...
+Incoming135=MID1C025
+Outgoing135=MID180267f
+Options135=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name136=... ga send 2
+Incoming136=MID1C025
+Outgoing136=MID190gx7f
+Options136=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name137=...
+Incoming137=MID1C025
+Outgoing137=MID180gx7f
+Options137=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name138=[ 7 ] SEND 3
+Incoming138=MID1C026
+Outgoing138=MID190277f
+Options138=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name139=...
+Incoming139=MID1C026
+Outgoing139=MID180277f
+Options139=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name140=... ga send 2
+Incoming140=MID1C026
+Outgoing140=MID190gx7f
+Options140=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name141=...
+Incoming141=MID1C026
+Outgoing141=MID180gx7f
+Options141=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name142=[ 8 ] SEND 4
+Incoming142=MID1C027
+Outgoing142=MID190287f
+Options142=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name143=...
+Incoming143=MID1C027
+Outgoing143=MID180287f
+Options143=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name144=... ga send 2
+Incoming144=MID1C027
+Outgoing144=MID190gx7f
+Options144=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name145=...
+Incoming145=MID1C027
+Outgoing145=MID180gx7f
+Options145=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name146=********* BANK 5 <B> ************
+Incoming146=MID1C000
+Outgoing146=None
+Options146=Actv00Stop01OutO00
+Name147=[ 1 ] SELECT 1
+Incoming147=MID1C060
+Outgoing147=KAM10100KSQ10002051251
+Options147=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=1
+Name148=[ 2 ] SELECT 2
+Incoming148=MID1C061
+Outgoing148=KAM10100KSQ10002057257
+Options148=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=2
+Name149=[ 3 ] SELECT 3
+Incoming149=MID1C062
+Outgoing149=KAM10100KSQ10002045245
+Options149=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=3
+Name150=[ 4 ] SELECT 4
+Incoming150=MID1C063
+Outgoing150=KAM10100KSQ10002052252
+Options150=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutega=4
+Name151=[ 5 ]  CLEAR 1
+Incoming151=MID1C064
+Outgoing151=MID190137f
+Options151=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name152=[ 5 ]
+Incoming152=MID1C064
+Outgoing152=MID180137f
+Options152=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=21+0
+Name153=[ 6 ]  CLEAR 2
+Incoming153=MID1C065
+Outgoing153=MID190147f
+Options153=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name154=[ 6 ]
+Incoming154=MID1C065
+Outgoing154=MID180147f
+Options154=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=22+0
+Name155=[ 7 ]  CLEAR 3
+Incoming155=MID1C066
+Outgoing155=MID190157f
+Options155=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name156=[ 7 ]
+Incoming156=MID1C066
+Outgoing156=MID180157f
+Options156=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=23+0
+Name157=[ 8 ]  CLEAR 4
+Incoming157=MID1C067
+Outgoing157=MID190167f
+Options157=Actv00Stop00OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name158=[ 8 ]
+Incoming158=MID1C067
+Outgoing158=MID180167f
+Options158=Actv00Stop01OutO00StMa00000002if(gc==0)noexecutegb=24+0
+Name159=... ga send 1
+Incoming159=MID1C064
+Outgoing159=MID190gx7f
+Options159=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+50
+Name160=...
+Incoming160=MID1C064
+Outgoing160=MID180gx7f
+Options160=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name161=... ga send 2
+Incoming161=MID1C065
+Outgoing161=MID190gx7f
+Options161=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+51
+Name162=...
+Incoming162=MID1C065
+Outgoing162=MID180gx7f
+Options162=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name163=... ga send 2
+Incoming163=MID1C066
+Outgoing163=MID190gx7f
+Options163=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+52
+Name164=...
+Incoming164=MID1C066
+Outgoing164=MID180gx7f
+Options164=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name165=... ga send 2
+Incoming165=MID1C067
+Outgoing165=MID190gx7f
+Options165=Actv01Stop00OutO00StMa00000003if(gc==0)noexecutegz=ga*4gx=gz+53
+Name166=...
+Incoming166=MID1C067
+Outgoing166=MID180gx7f
+Options166=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name167=********* BANK 6  <A>************
+Incoming167=MID1C000
+Outgoing167=None
+Options167=Actv00Stop01OutO00
+Name168=[ 1 ] SEND 1
+Incoming168=MID1C028
+Outgoing168=MID190257f
+Options168=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name169=...
+Incoming169=MID1C028
+Outgoing169=MID180257f
+Options169=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name170=[ 2 ] SEND 2
+Incoming170=MID1C029
+Outgoing170=MID190267f
+Options170=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name171=...
+Incoming171=MID1C029
+Outgoing171=MID180267f
+Options171=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name172=[ 3] SEND 3
+Incoming172=MID1C02A
+Outgoing172=MID190277f
+Options172=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name173=...
+Incoming173=MID1C02A
+Outgoing173=MID180277f
+Options173=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name174=[ 4 ] SEND 4
+Incoming174=MID1C02B
+Outgoing174=MID190287f
+Options174=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name175=...
+Incoming175=MID1C02B
+Outgoing175=MID180287f
+Options175=Actv01Stop00OutO00StMa00000001if(gc==0)noexecute
+Name176=[ 5 ] SEND 1
+Incoming176=MID1C02C
+Outgoing176=MID190257f
+Options176=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name177=...
+Incoming177=MID1C02C
+Outgoing177=MID180257f
+Options177=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name178=[ 6 ] SEND 2
+Incoming178=MID1C02D
+Outgoing178=MID190267f
+Options178=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name179=...
+Incoming179=MID1C02D
+Outgoing179=MID180267f
+Options179=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name180=[ 7 ] SEND 3
+Incoming180=MID1C02E
+Outgoing180=MID190277f
+Options180=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name181=...
+Incoming181=MID1C02E
+Outgoing181=MID180277f
+Options181=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name182=[ 8 ] SEND 4
+Incoming182=MID1C02F
+Outgoing182=MID190287f
+Options182=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name183=...
+Incoming183=MID1C02F
+Outgoing183=MID180287f
+Options183=Actv00Stop00OutO00StMa00000001if(gc==0)noexecute
+Name184=[ 5 ]  MUTE 1
+Incoming184=MID1C06C
+Outgoing184=MID190217f
+Options184=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name185=[ 5 ]
+Incoming185=MID1C06C
+Outgoing185=MID180217f
+Options185=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=17+0
+Name186=[ 6 ]  MUTE 2
+Incoming186=MID1C06D
+Outgoing186=MID190227f
+Options186=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name187=[ 6 ]
+Incoming187=MID1C06D
+Outgoing187=MID180227f
+Options187=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=18+0
+Name188=[ 7 ]  MUTE 3
+Incoming188=MID1C06E
+Outgoing188=MID190237f
+Options188=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=0+19
+Name189=[ 7 ]
+Incoming189=MID1C06E
+Outgoing189=MID180237f
+Options189=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=19+0
+Name190=[ 8 ]  MUTE 4
+Incoming190=MID1C06F
+Outgoing190=MID190247f
+Options190=Actv01Stop00OutO00StMa00000002if(gc==0)noexecutegb=20+0
+Name191=[ 8 ]
+Incoming191=MID1C06F
+Outgoing191=MID180247f
+Options191=Actv01Stop01OutO00StMa00000002if(gc==0)noexecutegb=20+0

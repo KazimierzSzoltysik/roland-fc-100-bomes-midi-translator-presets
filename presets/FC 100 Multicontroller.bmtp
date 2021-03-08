@@ -1,0 +1,65 @@
+[Project]
+Version=1
+[Preset.0]
+Name=FC 100 multicontrol (Ableton Live + KORG Electribe S)
+Active=1
+Name0=[ C ] tapped
+Incoming0=MID1B0517F
+Outgoing0=MID190ga7f
+Options0=Actv01Stop01OutO00
+Name1=[ C ] released
+Incoming1=MID1B05100
+Outgoing1=MID180ga7f
+Options1=Actv01Stop01OutO00
+Name2=[ 1 ] SELECT 1
+Incoming2=MID1C000
+Outgoing2=KAM10100KSQ10002051251
+Options2=Actv01Stop00OutO00StMa00000001ga=1
+Name3=[ 2 ] SELECT 2
+Incoming3=MID1C001
+Outgoing3=KAM10100KSQ10002057257
+Options3=Actv01Stop00OutO00StMa00000001ga=2
+Name4=[ 3 ] SELECT 3
+Incoming4=MID1C002
+Outgoing4=KAM10100KSQ10002045245
+Options4=Actv01Stop00OutO00StMa00000001ga=3
+Name5=[ 4 ] SELECT 4
+Incoming5=MID1C003
+Outgoing5=KAM10100KSQ10002052252
+Options5=Actv01Stop00OutO00StMa00000001ga=4
+Name6=[ 5 ]  CTRL 1  ( CLEAR )
+Incoming6=MID1C004
+Outgoing6=MID1b0ga7f
+Options6=Actv00Stop01OutO00
+Name7=[ 6 ]  CTRL 2
+Incoming7=MID1C005
+Outgoing7=MID1b0gb7f
+Options7=Actv00Stop01OutO00StMa00000001gb=ga+4
+Name8=[ 7 ]  CTRL 3
+Incoming8=MID1C006
+Outgoing8=MID1b0gb7f
+Options8=Actv00Stop01OutO00StMa00000001gb=ga+8
+Name9=[ 5 ]  CTRL 1  ( CLEAR )
+Incoming9=MID1C004
+Outgoing9=MID190gb7f
+Options9=Actv01Stop00OutO00StMa00000001gb=ga+4
+Name10=[ 5 ]  CTRL 1  
+Incoming10=MID1C004
+Outgoing10=MID180gb7f
+Options10=Actv01Stop01OutO00StMa00000001gb=ga+4
+Name11=[ 6 ]  CTRL 2  ( SEND 1 )
+Incoming11=MID1C005
+Outgoing11=MID190gb7f
+Options11=Actv01Stop00OutO00StMa00000001gb=ga+8
+Name12=[ 6 ]  CTRL 2
+Incoming12=MID1C005
+Outgoing12=MID180gb7f
+Options12=Actv01Stop01OutO00StMa00000001gb=ga+8
+Name13=[ 7 ]  CTRL 3  ( SEND 2 )
+Incoming13=MID1C006
+Outgoing13=MID190gb7f
+Options13=Actv01Stop00OutO00StMa00000001gb=ga+12
+Name14=[ 7 ]  CTRL 3
+Incoming14=MID1C006
+Outgoing14=MID180gb7f
+Options14=Actv01Stop01OutO00StMa00000001gb=ga+12
